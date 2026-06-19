@@ -509,48 +509,61 @@ def make_icons(icon_dir: Path) -> list[str]:
         return _make_icons_with_imagemagick(icon_dir, targets)
 
     icon_dir.mkdir(parents=True, exist_ok=True)
-    bg = (30, 30, 46, 255)           # #1e1e2e
-    fg = (166, 227, 161, 255)        # #a6e3a1
-    fg_dim = (90, 122, 85, 255)      # #5a7a55
+    bg      = (30, 30, 46, 255)     # #1e1e2e base
+    green   = (166, 227, 161, 255)  # #a6e3a1 accento
+    green_d = (90, 122, 85, 255)    # #5a7a55 verde scuro (bordo carta frontale)
+    surf    = (49, 50, 68, 255)     # #313244 dorso carta
+    crust   = (17, 17, 27, 255)     # #11111b figura/persona
+
+    def make_card(S, face):
+        """Disegna una singola cartina su un layer RGBA (con padding per ruotarla)."""
+        cw, ch = S * 0.42, S * 0.60
+        rad    = S * 0.07
+        pad    = int(max(cw, ch) * 0.45)
+        W, H   = int(cw + pad * 2), int(ch + pad * 2)
+        c = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(c)
+        x0, y0, x1, y1 = pad, pad, pad + cw, pad + ch
+        mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+        if face == "back":
+            # dorso: rettangolo scuro con bordo verde e cerchio al centro
+            d.rounded_rectangle([x0, y0, x1, y1], radius=rad,
+                                fill=surf, outline=green, width=max(2, int(S * 0.014)))
+            r = cw * 0.27
+            d.ellipse([mx - r, my - r, mx + r, my + r],
+                      outline=green, width=max(2, int(S * 0.022)))
+            d.ellipse([mx - r * 0.36, my - r * 0.36, mx + r * 0.36, my + r * 0.36], fill=green)
+        else:
+            # carta frontale: fondo verde con la figura di una persona (avatar)
+            d.rounded_rectangle([x0, y0, x1, y1], radius=rad,
+                                fill=green, outline=green_d, width=max(2, int(S * 0.012)))
+            hr = cw * 0.17
+            hy = y0 + ch * 0.36
+            d.ellipse([mx - hr, hy - hr, mx + hr, hy + hr], fill=crust)        # testa
+            bw, bh = cw * 0.52, ch * 0.30
+            by0 = hy + hr * 0.55
+            d.rounded_rectangle([mx - bw / 2, by0, mx + bw / 2, by0 + bh],
+                                radius=bw * 0.5, fill=crust)                    # spalle/busto
+        return c
 
     for name, size, maskable in targets:
         path = icon_dir / name
         if path.exists():
             continue
         img = Image.new("RGBA", (size, size), bg)
-        draw = ImageDraw.Draw(img)
-
-        # Per le icone maskable il contenuto va dentro un "safe zone" di
-        # ~80% del canvas (spec PWA), perché i launcher Android possono
-        # ritagliare ai bordi.
-        safe = 0.8 if maskable else 1.0
+        # safe zone ~82% per le maskable (i launcher Android ritagliano ai bordi)
+        safe = 0.82 if maskable else 1.0
+        S = size * safe
         cx, cy = size / 2, size / 2
-        outer_r = size * 0.42 * safe
-        ring_w = max(2, size * 0.055 * safe)
 
-        # cerchio esterno (accento)
-        draw.ellipse(
-            [cx - outer_r, cy - outer_r, cx + outer_r, cy + outer_r],
-            outline=fg, width=int(ring_w),
-        )
-        # arco/quadrante in basso più scuro (effetto pokéball stilizzata)
-        inner_r = outer_r - ring_w / 2
-        draw.rectangle(
-            [cx - inner_r, cy, cx + inner_r, cy + inner_r],
-            fill=fg_dim,
-        )
-        # banda orizzontale al centro
-        band_h = max(2, size * 0.045 * safe)
-        draw.rectangle(
-            [cx - outer_r - 2, cy - band_h / 2, cx + outer_r + 2, cy + band_h / 2],
-            fill=fg,
-        )
-        # pallino centrale
-        pin_r = size * 0.085 * safe
-        draw.ellipse(
-            [cx - pin_r, cy - pin_r, cx + pin_r, cy + pin_r],
-            fill=bg, outline=fg, width=int(ring_w),
-        )
+        def paste_rot(card, angle, dx, dy):
+            rc = card.rotate(angle, expand=True, resample=Image.BICUBIC)
+            img.paste(rc, (int(cx + dx - rc.width / 2), int(cy + dy - rc.height / 2)), rc)
+
+        # due dorsi sventagliati dietro (sinistra/destra), poi la carta-persona davanti
+        paste_rot(make_card(S, "back"),   19, -S * 0.17,  S * 0.05)
+        paste_rot(make_card(S, "back"),  -19,  S * 0.17,  S * 0.05)
+        paste_rot(make_card(S, "person"),  0,         0, -S * 0.05)
 
         img.save(path, "PNG", optimize=True)
         created.append(name)
