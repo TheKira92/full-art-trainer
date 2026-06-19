@@ -1,7 +1,7 @@
 // Service worker per Full Art Trainer (PWA)
 // Generato da gen_tracker.py — modifica liberamente se vuoi, NON viene
 // sovrascritto: per rigenerarlo cancella questo file e rilancia.
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const STATIC_CACHE  = 'fa-trainer-static-' + CACHE_VERSION;
 const IMG_CACHE     = 'fa-trainer-img-'    + CACHE_VERSION;
 
@@ -48,14 +48,19 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 2) same-origin → cache-first con fallback rete (e fallback all'HTML
-  //    radice per le navigation request, così offline non muore tutto)
   if (url.origin === self.location.origin) {
+    // 2) HTML / navigazioni → network-first: online vedi sempre l'ultima
+    //    versione (carte aggiornate dopo il push); offline usa la cache.
+    if (req.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
+      event.respondWith(networkFirst(req, STATIC_CACHE));
+      return;
+    }
+    // 3) altri file same-origin (icone, manifest) → cache-first (cambiano di rado)
     event.respondWith(cacheFirst(req, STATIC_CACHE));
     return;
   }
 
-  // 3) altro: bypass
+  // 4) altro: bypass
 });
 
 async function cacheFirst(req, cacheName) {
@@ -71,6 +76,20 @@ async function cacheFirst(req, cacheName) {
       const fallback = await cache.match("./index.html");
       if (fallback) return fallback;
     }
+    throw err;
+  }
+}
+
+async function networkFirst(req, cacheName) {
+  const cache = await caches.open(cacheName);
+  try {
+    const res = await fetch(req, { cache: 'no-store' });
+    if (res && res.ok) cache.put(req, res.clone());
+    return res;
+  } catch (err) {
+    // offline: ripiega sulla copia in cache (o sull'HTML radice)
+    const hit = (await cache.match(req)) || (await cache.match("./index.html")) || (await cache.match('./'));
+    if (hit) return hit;
     throw err;
   }
 }
