@@ -85,82 +85,186 @@ HTML = r'''<!DOCTYPE html>
 <meta name="apple-mobile-web-app-title" content="FA Trainer">
 <style>
   :root{--base:#1e1e2e;--mantle:#181825;--crust:#11111b;--surface0:#313244;
-    --surface1:#45475a;--text:#cdd6f4;--subtext:#a6adc8;--overlay:#6c7086;
-    --green:#a6e3a1;--green-dim:#5a7a55;--maroon:#eba0ac;
+    --surface1:#45475a;--surface2:#585b70;--text:#cdd6f4;--subtext:#a6adc8;--overlay:#6c7086;
+    --green:#a6e3a1;--green-dim:#5a7a55;--maroon:#eba0ac;--sidebar-w:266px;
     --mono:'JetBrains Mono',ui-monospace,'Cascadia Code',monospace;
     --sans:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--base);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased;padding-bottom:4rem}
-  header{position:sticky;top:0;z-index:20;background:rgba(24,24,37,.92);backdrop-filter:blur(10px);
-    border-bottom:1px solid var(--surface0);padding:1.1rem clamp(1rem,4vw,2.5rem) .9rem;padding-top:calc(1.1rem + env(safe-area-inset-top))}
-  .titlerow{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap}
-  h1{font-size:1.3rem;font-weight:800;letter-spacing:-.02em}h1 .accent{color:var(--green)}
-  .subtitle{font-family:var(--mono);font-size:.76rem;color:var(--overlay)}
-  .progress-wrap{margin-top:.8rem;display:flex;align-items:center;gap:1rem}
-  .bar{flex:1;height:10px;background:var(--surface0);border-radius:999px;overflow:hidden}
+  html,body{height:100%}
+  body{background:var(--base);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--green);color:var(--crust)}
+
+  /* layout a due colonne */
+  .app{display:flex;min-height:100vh}
+
+  /* ---- sidebar (desktop) / drawer (mobile) ---- */
+  .sidebar{width:var(--sidebar-w);flex:0 0 var(--sidebar-w);background:var(--mantle);
+    border-right:1px solid var(--surface0);display:flex;flex-direction:column;gap:1.15rem;
+    padding:1.4rem 1.1rem;position:sticky;top:0;height:100vh;overflow-y:auto;
+    padding-top:calc(1.4rem + env(safe-area-inset-top))}
+  .brand h1{font-size:1.18rem;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+  .brand h1 .accent{color:var(--green)}
+  .brand .subtitle{font-family:var(--mono);font-size:.68rem;color:var(--overlay);margin-top:.3rem}
+
+  .progress{background:var(--base);border:1px solid var(--surface0);border-radius:13px;
+    padding:.85rem .95rem;display:flex;flex-direction:column;gap:.6rem}
+  .progress .count{font-family:var(--mono);font-size:.85rem;display:flex;align-items:baseline;gap:.25rem}
+  .progress .count b{color:var(--green);font-size:1.55rem;font-weight:800;line-height:1}
+  .progress .count .sep{color:var(--overlay)}
+  .progress .count .pct{margin-left:auto;color:var(--subtext);font-size:.82rem}
+  .bar{height:8px;background:var(--surface0);border-radius:999px;overflow:hidden}
   .bar-fill{height:100%;width:0;background:linear-gradient(90deg,var(--green-dim),var(--green));
-    border-radius:999px;transition:width .45s cubic-bezier(.22,1,.36,1)}
-  .count{font-family:var(--mono);font-size:.9rem;font-weight:600;white-space:nowrap}
-  .count b{color:var(--green);font-size:1.02rem}.pct{color:var(--overlay)}
-  .toolbar{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;padding:.9rem clamp(1rem,4vw,2.5rem);
-    border-bottom:1px solid var(--surface0);position:sticky;top:118px;z-index:15;
-    background:rgba(30,30,46,.92);backdrop-filter:blur(8px)}
-  .seg{display:inline-flex;background:var(--surface0);border-radius:9px;padding:3px}
-  .seg button{font-family:var(--sans);font-size:.8rem;font-weight:600;color:var(--subtext);
-    background:none;border:none;padding:.4rem .8rem;border-radius:7px;cursor:pointer;transition:.15s}
+    border-radius:999px;transition:width .5s cubic-bezier(.22,1,.36,1)}
+
+  .filters{display:flex;flex-direction:column;gap:1rem}
+  .flabel{font-family:var(--mono);font-size:.64rem;text-transform:uppercase;letter-spacing:.09em;
+    color:var(--overlay);margin-bottom:.4rem}
+  .seg{display:flex;background:var(--surface0);border-radius:10px;padding:3px;gap:2px}
+  .seg button{flex:1;font-family:var(--sans);font-size:.74rem;font-weight:600;color:var(--subtext);
+    background:none;border:none;padding:.46rem .25rem;border-radius:7px;cursor:pointer;transition:.15s}
   .seg button.active{background:var(--green);color:var(--crust)}
-  select,input[type=search]{font-family:var(--sans);font-size:.8rem;color:var(--text);
-    background:var(--surface0);border:1px solid var(--surface1);border-radius:8px;padding:.42rem .7rem;outline:none}
-  input[type=search]{min-width:140px}select:focus,input:focus{border-color:var(--green)}
-  .spacer{flex:1}
-  .btn{font-family:var(--sans);font-size:.78rem;font-weight:600;cursor:pointer;background:var(--surface0);
-    color:var(--subtext);border:1px solid var(--surface1);border-radius:8px;padding:.42rem .8rem;transition:.15s}
-  .btn:hover{color:var(--text);border-color:var(--overlay)}.btn.danger:hover{color:var(--maroon);border-color:var(--maroon)}
-  main{padding:1.4rem clamp(1rem,4vw,2.5rem)}
-  .setgroup{margin-bottom:2rem}
-  .sethead{display:flex;align-items:center;gap:.7rem;margin-bottom:.8rem;padding-bottom:.4rem;border-bottom:1px dashed var(--surface1)}
-  .setcode{font-family:var(--mono);font-weight:700;font-size:1rem;color:var(--text);background:var(--surface0);padding:.15rem .55rem;border-radius:6px}
-  .setbadge{font-family:var(--mono);font-size:.78rem;color:var(--subtext)}.setbadge.done{color:var(--green)}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:.85rem}
-  .card{position:relative;cursor:pointer;border-radius:10px;overflow:hidden;background:var(--mantle);
-    border:2px solid transparent;transition:transform .14s ease,border-color .14s ease,box-shadow .14s ease}
-  .card img{width:100%;display:block;aspect-ratio:734/1024;object-fit:cover;filter:grayscale(.85) brightness(.55);opacity:.7;transition:.22s}
-  .card .tag{font-family:var(--mono);font-size:.66rem;color:var(--subtext);text-align:center;padding:.3rem .2rem;background:var(--mantle)}
-  .card .check{position:absolute;top:6px;right:6px;width:22px;height:22px;border-radius:50%;background:var(--surface1);
-    display:grid;place-items:center;opacity:0;transform:scale(.6);transition:.18s;box-shadow:0 2px 6px rgba(0,0,0,.4)}
-  .card .check svg{width:13px;height:13px;stroke:var(--crust);stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
-  .card:hover{transform:translateY(-3px)}.card:hover img{opacity:.85}
-  .card.owned{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 6px 18px rgba(166,227,161,.13)}
-  .card.owned img{filter:none;opacity:1}.card.owned .tag{color:var(--green)}
+  .seg button:not(.active):hover{color:var(--text)}
+  select,input[type=search]{width:100%;font-family:var(--sans);font-size:.82rem;color:var(--text);
+    background:var(--surface0);border:1px solid var(--surface0);border-radius:9px;padding:.55rem .7rem;
+    outline:none;transition:.15s}
+  select:focus,input:focus{border-color:var(--green)}
+  .search-wrap{position:relative}
+  .search-wrap svg{position:absolute;left:.62rem;top:50%;transform:translateY(-50%);width:15px;height:15px;
+    stroke:var(--overlay);fill:none;stroke-width:2;stroke-linecap:round;pointer-events:none}
+  .search-wrap input{padding-left:2.1rem}
+
+  .actions{margin-top:auto;display:flex;flex-direction:column;gap:.5rem;padding-top:1rem;
+    border-top:1px solid var(--surface0)}
+  .actrow{display:flex;gap:.5rem}
+  .btn{flex:1;font-family:var(--sans);font-size:.76rem;font-weight:600;cursor:pointer;background:var(--surface0);
+    color:var(--subtext);border:1px solid transparent;border-radius:9px;padding:.55rem .6rem;transition:.15s}
+  .btn:hover{color:var(--text);background:var(--surface1)}
+  .btn.danger:hover{color:var(--crust);background:var(--maroon)}
+  .order-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:.4rem}
+  .order-btn::before{content:'';width:13px;height:13px;flex:none;background:currentColor;
+    -webkit-mask:var(--sortmask) center/contain no-repeat;mask:var(--sortmask) center/contain no-repeat}
+  :root{--sortmask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 4v16M7 20l-3-3M7 4l3 3M17 4v16M17 4l-3 3M17 20l3-3'/%3E%3C/svg%3E")}
+
+  /* ---- topbar + backdrop (compaiono solo su mobile) ---- */
+  .topbar{display:none}
+  .backdrop{display:none}
+
+  /* ---- main ---- */
+  main{flex:1;min-width:0;padding:1.6rem clamp(1rem,3vw,2.3rem) 3rem;
+    padding-top:calc(1.6rem + env(safe-area-inset-top))}
+  .setgroup{margin-bottom:2.4rem}
+  .sethead{display:flex;align-items:center;gap:.7rem;margin-bottom:1rem;padding-bottom:.55rem;
+    border-bottom:1px solid var(--surface0)}
+  .setcode{font-family:var(--mono);font-weight:700;font-size:1.02rem;color:var(--text);
+    background:var(--surface0);padding:.2rem .6rem;border-radius:8px;letter-spacing:.02em}
+  .setbadge{font-family:var(--mono);font-size:.76rem;color:var(--subtext);background:var(--mantle);
+    border:1px solid var(--surface0);padding:.18rem .6rem;border-radius:999px}
+  .setbadge.done{color:var(--crust);background:var(--green);border-color:var(--green)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:1rem}
+  .card{position:relative;cursor:pointer;border-radius:14px;overflow:hidden;background:var(--mantle);
+    border:1px solid var(--surface0);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+  .card img{width:100%;display:block;aspect-ratio:734/1024;object-fit:cover;
+    filter:grayscale(.8) brightness(.6);opacity:.74;transition:.25s}
+  .card .tag{font-family:var(--mono);font-size:.68rem;color:var(--subtext);text-align:center;
+    padding:.42rem .2rem;background:var(--mantle);transition:.2s}
+  .card .check{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;
+    background:var(--surface1);display:grid;place-items:center;opacity:0;transform:scale(.5);
+    transition:.18s cubic-bezier(.34,1.56,.64,1);box-shadow:0 2px 8px rgba(0,0,0,.45)}
+  .card .check svg{width:14px;height:14px;stroke:var(--crust);stroke-width:3.5;fill:none;
+    stroke-linecap:round;stroke-linejoin:round}
+  .card:hover{transform:translateY(-4px);border-color:var(--surface2)}
+  .card:hover img{opacity:.95;filter:grayscale(.3) brightness(.85)}
+  .card.owned{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 8px 22px rgba(166,227,161,.14)}
+  .card.owned img{filter:none;opacity:1}
+  .card.owned .tag{color:var(--green)}
   .card.owned .check{opacity:1;transform:scale(1);background:var(--green)}
+
   .empty{text-align:center;color:var(--overlay);font-family:var(--mono);padding:4rem 1rem;font-size:.95rem}
-  .toast{position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%) translateY(2rem);background:var(--surface1);
-    color:var(--text);font-family:var(--mono);font-size:.8rem;padding:.55rem 1rem;border-radius:9px;opacity:0;
-    transition:.25s;pointer-events:none;z-index:40}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  @media(max-width:520px){.toolbar{top:128px}.grid{grid-template-columns:repeat(auto-fill,minmax(98px,1fr));gap:.6rem}}
+  .toast{position:fixed;bottom:1.4rem;left:50%;transform:translateX(-50%) translateY(2rem);
+    background:var(--surface1);color:var(--text);font-family:var(--mono);font-size:.8rem;padding:.6rem 1.1rem;
+    border-radius:10px;opacity:0;transition:.25s;pointer-events:none;z-index:80;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ---- responsive: la sidebar diventa un drawer a scomparsa ---- */
+  @media(max-width:900px){
+    .topbar{display:flex;align-items:center;gap:.8rem;position:sticky;top:0;z-index:40;
+      background:rgba(24,24,37,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--surface0);
+      padding:.65rem 1rem;padding-top:calc(.65rem + env(safe-area-inset-top))}
+    .menu-btn{display:grid;place-items:center;width:38px;height:38px;border-radius:10px;
+      background:var(--surface0);border:none;cursor:pointer;flex:none}
+    .menu-btn svg{width:20px;height:20px;stroke:var(--text);stroke-width:2;fill:none;stroke-linecap:round}
+    .menu-btn:active{background:var(--surface1)}
+    .topbrand{font-weight:800;font-size:1rem;letter-spacing:-.01em}
+    .topbrand .accent{color:var(--green)}
+    .topcount{margin-left:auto;font-family:var(--mono);font-size:.95rem;color:var(--subtext)}
+    .topcount b{color:var(--green)}
+    .sidebar{position:fixed;top:0;left:0;height:100dvh;z-index:60;width:min(84vw,300px);flex-basis:auto;
+      transform:translateX(-100%);transition:transform .28s cubic-bezier(.4,0,.2,1);
+      box-shadow:0 0 44px rgba(0,0,0,.55)}
+    .sidebar.open{transform:none}
+    .backdrop{display:block;position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.55);
+      opacity:0;pointer-events:none;transition:opacity .28s}
+    body.drawer-open .backdrop{opacity:1;pointer-events:auto}
+    main{padding:1.1rem 1rem 3rem}
+    .grid{grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:.7rem}
+  }
 </style></head><body>
-<header>
-  <div class="titlerow"><h1>Full Art <span class="accent">Trainer</span></h1>
-    <span class="subtitle">tracker collezione · EN · Limitless DB</span></div>
-  <div class="progress-wrap"><div class="bar"><div class="bar-fill" id="barFill"></div></div>
-    <div class="count"><b id="ownedN">0</b> / <span id="totalN">0</span> <span class="pct" id="pctN">(0%)</span></div></div>
-</header>
-<div class="toolbar">
-  <div class="seg" id="filterSeg"><button data-f="all" class="active">Tutte</button>
-    <button data-f="owned">Possedute</button><button data-f="missing">Mancanti</button></div>
-  <select id="setSel"><option value="">Tutti i set</option></select>
-  <input type="search" id="search" placeholder="Cerca set o numero...">
-  <span class="spacer"></span>
-  <button class="btn" id="importBtn">Importa</button>
-  <button class="btn" id="exportBtn">Esporta</button>
-  <button class="btn danger" id="resetBtn">Azzera</button>
-  <input type="file" id="importFile" accept="application/json" style="display:none">
+<div class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Apri filtri">
+    <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <span class="topbrand">Full Art <span class="accent">Trainer</span></span>
+  <span class="topcount"><b id="pctTop">0%</b></span>
 </div>
-<main id="main"></main><div class="toast" id="toast"></div>
+<div class="backdrop" id="backdrop"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <h1>Full Art <span class="accent">Trainer</span></h1>
+      <div class="subtitle">collezione · EN · Limitless DB</div>
+    </div>
+    <div class="progress">
+      <div class="count"><b id="ownedN">0</b><span class="sep">/</span><span id="totalN">0</span><span class="pct" id="pctN">0%</span></div>
+      <div class="bar"><div class="bar-fill" id="barFill"></div></div>
+    </div>
+    <div class="filters">
+      <div>
+        <div class="flabel">Mostra</div>
+        <div class="seg" id="filterSeg"><button data-f="all" class="active">Tutte</button><button data-f="owned">Possedute</button><button data-f="missing">Mancanti</button></div>
+      </div>
+      <div>
+        <div class="flabel">Set</div>
+        <select id="setSel"><option value="">Tutti i set</option></select>
+      </div>
+      <div>
+        <div class="flabel">Cerca</div>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="search" id="search" placeholder="Set o numero…">
+        </div>
+      </div>
+      <div>
+        <div class="flabel">Ordine set</div>
+        <button class="btn order-btn" id="orderBtn"><span id="orderLbl">Recenti → Vecchi</span></button>
+      </div>
+    </div>
+    <div class="actions">
+      <div class="actrow">
+        <button class="btn" id="importBtn">Importa</button>
+        <button class="btn" id="exportBtn">Esporta</button>
+      </div>
+      <button class="btn danger" id="resetBtn">Azzera collezione</button>
+      <input type="file" id="importFile" accept="application/json" style="display:none">
+    </div>
+  </aside>
+  <main id="main"></main>
+</div>
+<div class="toast" id="toast"></div>
 <script>
 const CARDS = __DATA__;
 const STORAGE_KEY = 'fullart-trainer-en';
-let owned=new Set(), filter='all', setFilter='', query='';
+let owned=new Set(), filter='all', setFilter='', query='', orderAsc=false;
 function loadOwned(){ try{ const ls=localStorage.getItem(STORAGE_KEY); if(ls) owned=new Set(JSON.parse(ls)); }catch(e){} }
 let saveTimer=null;
 function saveOwned(){ clearTimeout(saveTimer); saveTimer=setTimeout(()=>{ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify([...owned])); }catch(e){} },200); }
@@ -175,7 +279,8 @@ function matches(c){ if(setFilter&&c.s!==setFilter)return false;
 function render(){ const vis=CARDS.filter(matches); main.innerHTML='';
   if(!vis.length){ main.innerHTML='<div class="empty">Nessuna carta con questi filtri.</div>'; return; }
   const g={}; for(const c of vis)(g[c.s]=g[c.s]||[]).push(c);
-  for(const s of setsOrdered()){ if(!g[s])continue;
+  const order=orderAsc?[...setsOrdered()].reverse():setsOrdered();
+  for(const s of order){ if(!g[s])continue;
     const oin=CARDS.filter(c=>c.s===s&&owned.has(c.id)).length, tin=CARDS.filter(c=>c.s===s).length, done=oin===tin;
     const sec=document.createElement('section'); sec.className='setgroup';
     sec.innerHTML='<div class="sethead"><span class="setcode">'+s+'</span><span class="setbadge '+(done?'done':'')+'">'+oin+'/'+tin+(done?' ✓':'')+'</span></div>';
@@ -188,7 +293,8 @@ function render(){ const vis=CARDS.filter(matches); main.innerHTML='';
     sec.appendChild(grid); main.appendChild(sec); } }
 function updateStats(){ const n=owned.size,t=CARDS.length,p=t?Math.round(n/t*100):0;
   document.getElementById('ownedN').textContent=n; document.getElementById('totalN').textContent=t;
-  document.getElementById('pctN').textContent='('+p+'%)'; document.getElementById('barFill').style.width=p+'%'; }
+  document.getElementById('pctN').textContent=p+'%'; document.getElementById('barFill').style.width=p+'%';
+  const pt=document.getElementById('pctTop'); if(pt) pt.textContent=p+'%'; }
 function toggle(id,el){ if(owned.has(id)){owned.delete(id);el.classList.remove('owned');}else{owned.add(id);el.classList.add('owned');}
   updateStats(); saveOwned(); if(filter!=='all') setTimeout(render,180); }
 function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1600); }
@@ -206,6 +312,24 @@ document.getElementById('importFile').addEventListener('change',e=>{ const f=e.t
   r.onload=()=>{ try{ const d=JSON.parse(r.result); const arr=Array.isArray(d)?d:(d.owned||[]); owned=new Set(arr);
     updateStats(); saveOwned(); render(); toast('Importate '+owned.size+' carte'); }catch(err){ toast('File non valido'); } };
   r.readAsText(f); e.target.value=''; });
+// --- drawer (mobile): apre/chiude la sidebar dei filtri ---
+const sidebarEl=document.getElementById('sidebar');
+const isMobile=()=>window.matchMedia('(max-width:900px)').matches;
+function openDrawer(){ sidebarEl.classList.add('open'); document.body.classList.add('drawer-open'); }
+function closeDrawer(){ sidebarEl.classList.remove('open'); document.body.classList.remove('drawer-open'); }
+document.getElementById('menuBtn').addEventListener('click',openDrawer);
+document.getElementById('backdrop').addEventListener('click',closeDrawer);
+document.getElementById('filterSeg').addEventListener('click',()=>{ if(isMobile()) closeDrawer(); });
+document.getElementById('setSel').addEventListener('change',()=>{ if(isMobile()) closeDrawer(); });
+
+// --- ordine set (recente<->vecchio), preferenza persistente ---
+const ORDER_KEY='fullart-trainer-order', orderLbl=document.getElementById('orderLbl');
+function applyOrderLabel(){ orderLbl.textContent=orderAsc?'Vecchi → Recenti':'Recenti → Vecchi'; }
+try{ orderAsc=localStorage.getItem(ORDER_KEY)==='asc'; }catch(e){}
+applyOrderLabel();
+document.getElementById('orderBtn').addEventListener('click',()=>{ orderAsc=!orderAsc; applyOrderLabel();
+  try{ localStorage.setItem(ORDER_KEY, orderAsc?'asc':'desc'); }catch(e){} render(); });
+
 loadOwned(); document.getElementById('totalN').textContent=CARDS.length; populateSetSelect(); updateStats(); render();
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>{
