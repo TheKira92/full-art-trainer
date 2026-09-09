@@ -9,6 +9,8 @@ rendere il tracker ricercabile per nome nelle due lingue.
 Per ogni carta di fullart.csv visita /cards/{lingua}/{SET}/{NUM} e legge:
   - il nome della carta      (.card-text-name)
   - il nome dell'espansione  (.card-prints-current, es. "Buio Pesto (PBL)")
+  - il link al prodotto su Cardmarket (a.card-buy-button.eur), che il tracker
+    usa per la scheda prezzi aperta con la pressione prolungata
 
 Il lavoro e' incrementale: le carte gia' in cache non vengono riscaricate,
 quindi dopo una nuova espansione servono solo le richieste per le carte
@@ -58,11 +60,11 @@ def save_names(path, data):
 
 
 def fetch_one(session, lang, cset, number, timeout=30):
-    """Ritorna (nome_carta, nome_espansione) per una carta in una lingua."""
+    """Ritorna (nome_carta, nome_espansione, url_cardmarket) per una carta."""
     url = f"{SITE}/cards/{lang}/{cset}/{number}"
     resp = session.get(url, timeout=timeout)
     if resp.status_code != 200:
-        return "", ""
+        return "", "", ""
     soup = BeautifulSoup(resp.text, "html.parser")
 
     name = ""
@@ -79,7 +81,15 @@ def fetch_one(session, lang, cset, number, timeout=30):
         if m:
             expansion = m.group(1).strip()
 
-    return name, expansion
+    # Link al prodotto Cardmarket: e' il bottone del prezzo in euro. Togliamo
+    # i parametri utm_* di Limitless e teniamo l'URL pulito, a cui il tracker
+    # aggiunge i filtri di lingua e condizione.
+    cm = ""
+    a = soup.select_one("a.card-buy-button.eur[href]")
+    if a and "cardmarket.com" in a["href"]:
+        cm = a["href"].split("?")[0]
+
+    return name, expansion, cm
 
 
 def main():
@@ -114,8 +124,9 @@ def main():
     todo = []
     for key, cset, num in wanted:
         missing = [l for l in langs if args.refresh or not cards.get(key, {}).get(l)]
-        if missing:
-            todo.append((key, cset, num, missing))
+        need_cm = args.refresh or not cards.get(key, {}).get("cm")
+        if missing or need_cm:
+            todo.append((key, cset, num, missing, need_cm))
 
     print(f"Carte nel CSV: {len(wanted)} | gia' in cache: {len(wanted) - len(todo)} | "
           f"da scaricare: {len(todo)} (lingue: {', '.join(langs)})", file=sys.stderr)
@@ -127,19 +138,23 @@ def main():
     session.headers.update({"User-Agent": "limitless-fullart/1.0"})
 
     errors = 0
-    for i, (key, cset, num, missing) in enumerate(todo, 1):
+    for i, (key, cset, num, missing, need_cm) in enumerate(todo, 1):
         entry = cards.setdefault(key, {})
-        for lang in missing:
+        # se manca solo il link Cardmarket basta una pagina qualsiasi
+        for lang in (missing or langs[:1]):
             try:
-                name, expansion = fetch_one(session, lang, cset, num)
+                name, expansion, cm = fetch_one(session, lang, cset, num)
             except Exception as e:
                 print(f"  errore {lang} {key}: {e}", file=sys.stderr)
                 errors += 1
                 continue
-            if name:
-                entry[lang] = name
-            if expansion:
-                sets.setdefault(cset, {})[lang] = expansion
+            if lang in missing:
+                if name:
+                    entry[lang] = name
+                if expansion:
+                    sets.setdefault(cset, {})[lang] = expansion
+            if cm and (args.refresh or not entry.get("cm")):
+                entry["cm"] = cm
             time.sleep(args.delay)
         if i % 25 == 0:
             save_names(args.out, data)
@@ -153,6 +168,8 @@ def main():
     for lang in langs:
         have = sum(1 for k, _, _ in wanted if cards.get(k, {}).get(lang))
         print(f"  nome {lang}: {have}/{len(wanted)}")
+    have_cm = sum(1 for k, _, _ in wanted if cards.get(k, {}).get("cm"))
+    print(f"  link Cardmarket: {have_cm}/{len(wanted)}")
     if errors:
         print(f"  richieste fallite: {errors} (rilancia per riprovare)", file=sys.stderr)
 

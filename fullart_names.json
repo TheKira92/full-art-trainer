@@ -1,1930 +1,2412 @@
 {
  "cards": {
   "AOR-75a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ancient-Origins/Hex-Maniac-V2-AOR75a",
    "en": "Hex Maniac",
    "it": "Streghetta"
   },
   "AOR-95": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ancient-Origins/Steven-AOR95",
    "en": "Steven",
    "it": "Rocco"
   },
   "ASC-254": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Anthea-Concordia-V2-ASC254",
    "en": "Anthea & Concordia",
    "it": "Antea e Concordia"
   },
   "ASC-255": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Black-Belts-Training-ASC256",
    "en": "Black Belt's Training",
    "it": "Allenamento di Cinturanera"
   },
   "ASC-256": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Bosss-Orders-Corbeau-V2-ASC255",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "ASC-257": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Canari-V2-ASC257",
    "en": "Canari",
    "it": "Canary"
   },
   "ASC-258": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Cheren-ASC258",
    "en": "Cheren",
    "it": "Komor"
   },
   "ASC-259": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Counter-Gain-V2-ASC259",
    "en": "Counter Gain",
    "it": "Contrappeso"
   },
   "ASC-260": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Glass-Trumpet-V2-ASC260",
    "en": "Glass Trumpet",
    "it": "Tromba di Vetro"
   },
   "ASC-261": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Jamming-Tower-ASC261",
    "en": "Jamming Tower",
    "it": "Torre di Interferenza"
   },
   "ASC-262": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Ns-PP-Up-V2-ASC262",
    "en": "N's PP Up",
    "it": "PP-su di N"
   },
   "ASC-263": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Team-Rockets-Transceiver-V2-ASC263",
    "en": "Team Rocket's Transceiver",
    "it": "Ricetrasmettitore del Team Rocket"
   },
   "ASC-264": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Ultra-Ball-V2-ASC264",
    "en": "Ultra Ball",
    "it": "Ultra Ball"
   },
   "ASC-291": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Canari-V3-ASC292",
    "en": "Canari",
    "it": "Canary"
   },
   "ASC-292": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Iriss-Fighting-Spirit-V2-ASC291",
    "en": "Iris's Fighting Spirit",
    "it": "Spirito Combattivo di Iris"
   },
   "ASC-293": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ascended-Heroes/Surfer-V2-ASC293",
    "en": "Surfer",
    "it": "Surfista"
   },
   "ASR-181": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Adaman-V2-ASR181",
    "en": "Adaman",
    "it": "Damon"
   },
   "ASR-182": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Choy-V2-ASR182",
    "en": "Choy",
    "it": "Choi"
   },
   "ASR-183": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Cyllene-V2-ASR183",
    "en": "Cyllene",
    "it": "Selina"
   },
   "ASR-184": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Gardenias-Vigor-V2-ASR184",
    "en": "Gardenia's Vigor",
    "it": "Vigore di Gardenia"
   },
   "ASR-185": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Grant-V2-ASR185",
    "en": "Grant",
    "it": "Lino"
   },
   "ASR-186": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Irida-V2-ASR186",
    "en": "Irida",
    "it": "Perula"
   },
   "ASR-187": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Kamado-V2-ASR187",
    "en": "Kamado",
    "it": "Soruan"
   },
   "ASR-188": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Roxanne-V2-ASR188",
    "en": "Roxanne",
    "it": "Petra"
   },
   "ASR-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Zisu-V2-ASR189",
    "en": "Zisu",
    "it": "Lapilla"
   },
   "ASR-TG24": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Allister-ASRTG24",
    "en": "Allister",
    "it": "Onion"
   },
   "ASR-TG25": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Bea-ASRTG25",
    "en": "Bea",
    "it": "Fabia"
   },
   "ASR-TG26": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Melony-ASRTG26",
    "en": "Melony",
    "it": "Melania"
   },
   "ASR-TG27": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Milo-ASRTG27",
    "en": "Milo",
    "it": "Yarrow"
   },
   "ASR-TG28": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Astral-Radiance/Piers-ASRTG28",
    "en": "Piers",
    "it": "Ginepro"
   },
   "BCR-147": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Boundaries-Crossed/Bianca-BCR147",
    "en": "Bianca",
    "it": "Belle"
   },
   "BCR-148": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Boundaries-Crossed/Cheren-BCR148",
    "en": "Cheren",
    "it": "Komor"
   },
   "BCR-149": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Boundaries-Crossed/Skyla-V2-BCR149",
    "en": "Skyla",
    "it": "Anemone"
   },
   "BKP-122": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/BREAKpoint/Skyla-BKP122",
    "en": "Skyla",
    "it": "Anemone"
   },
   "BKP-98b": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/BREAKpoint/Delinquent-V2-BKP98b",
    "en": "Delinquent",
    "it": "Tipaccia"
   },
   "BKT-161": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/BREAKthrough/Brigette-BKT161",
    "en": "Brigette",
    "it": "Colette"
   },
   "BKT-162": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/BREAKthrough/Giovannis-Scheme-V2-BKT162",
    "en": "Giovanni's Scheme",
    "it": "Piano di Giovanni"
   },
   "BLK-162": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Black-Bolt/Fennel-V2-BLK162",
    "en": "Fennel",
    "it": "Zania"
   },
   "BLK-163": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Black-Bolt/Ns-Plan-V2-BLK163",
    "en": "N's Plan",
    "it": "Piano di N"
   },
   "BLK-170": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Black-Bolt/Ns-Plan-V3-BLK170",
    "en": "N's Plan",
    "it": "Piano di N"
   },
   "BRS-167": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Barry-V2-BRS167",
    "en": "Barry",
    "it": "Barry"
   },
   "BRS-168": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Cherens-Care-V2-BRS168",
    "en": "Cheren's Care",
    "it": "Premura di Komor"
   },
   "BRS-169": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Cynthias-Ambition-V2-BRS169",
    "en": "Cynthia's Ambition",
    "it": "Ambizione di Camilla"
   },
   "BRS-170": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Kindler-V2-BRS170",
    "en": "Kindler",
    "it": "Brandifuoco"
   },
   "BRS-171": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Marnies-Pride-V2-BRS171",
    "en": "Marnie's Pride",
    "it": "Orgoglio di Mary"
   },
   "BRS-172": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Roseannes-Backup-V2-BRS172",
    "en": "Roseanne's Backup",
    "it": "Backup di Rosabella"
   },
   "BRS-TG24": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Acerolas-Premonition-V2-BRSTG24",
    "en": "Acerola's Premonition",
    "it": "Premonizione di Malpi"
   },
   "BRS-TG25": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Cafe-Master-V2-BRSTG25",
    "en": "Café Master",
    "it": "Barista"
   },
   "BRS-TG26": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Gloria-V2-BRSTG26",
    "en": "Gloria",
    "it": "Gloria"
   },
   "BRS-TG27": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Rapid-Strike-Style-Mustard-BRSTG27",
    "en": "Rapid Strike Style Mustard",
    "it": "Mustard Stile Pluricolpo"
   },
   "BRS-TG28": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Brilliant-Stars/Single-Strike-Style-Mustard-BRSTG28",
    "en": "Single Strike Style Mustard",
    "it": "Mustard Stile Singolcolpo"
   },
   "BST-158": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Bruno-V2",
    "en": "Bruno",
    "it": "Bruno"
   },
   "BST-159": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Cheryl-V2",
    "en": "Cheryl",
    "it": "Demetra"
   },
   "BST-160": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Korrinas-Focus-V2",
    "en": "Korrina's Focus",
    "it": "Impegno di Ornella"
   },
   "BST-161": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Phoebe-V2",
    "en": "Phoebe",
    "it": "Ester"
   },
   "BST-162": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Rapid-Strike-Style-Mustard-V2-BST162",
    "en": "Rapid Strike Style Mustard",
    "it": "Mustard Stile Pluricolpo"
   },
   "BST-163": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Battle-Styles/Single-Strike-Style-Mustard-V2-BST163",
    "en": "Single Strike Style Mustard",
    "it": "Mustard Stile Singolcolpo"
   },
   "BUS-142": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Acerola-V2-BUS142",
    "en": "Acerola",
    "it": "Malpi"
   },
   "BUS-143": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Guzma-V2-BUS143",
    "en": "Guzma",
    "it": "Guzman"
   },
   "BUS-144": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kiawe-V2-BUS144",
    "en": "Kiawe",
    "it": "Kawe"
   },
   "BUS-145": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Plumeria-V2-BUS145",
    "en": "Plumeria",
    "it": "Plumeria"
   },
   "BUS-146": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Sophocles-V2-BUS146",
    "en": "Sophocles",
    "it": "Chrys"
   },
   "BUS-147": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wicke-V2-BUS147",
    "en": "Wicke",
    "it": "Ciceria"
   },
   "CEC-228": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cynthia-Caitlin-V2-CEC228",
    "en": "Cynthia & Caitlin",
    "it": "Camilla e Catlina"
   },
   "CEC-229": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Guzma-Hala-V2-CEC229",
    "en": "Guzma & Hala",
    "it": "Guzman e Hala"
   },
   "CEC-230": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lillies-Full-Force-V2-CEC230",
    "en": "Lillie's Full Force",
    "it": "Lylia alla Massima Potenza"
   },
   "CEC-231": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mallow-Lana-V2-CEC231",
    "en": "Mallow & Lana",
    "it": "Ibis e Suiren"
   },
   "CEC-232": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ns-Resolve-V2-CEC232",
    "en": "N's Resolve",
    "it": "Grinta di N"
   },
   "CEC-233": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Professor-Oaks-Setup-V2-CEC233",
    "en": "Professor Oak's Setup",
    "it": "Allestimento del Professor Oak"
   },
   "CEC-234": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Red-Blue-V2-CEC234",
    "en": "Red & Blue",
    "it": "Rosso e Blu"
   },
   "CEC-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Roller-Skater-V2-CEC235",
    "en": "Roller Skater",
    "it": "Pattinatrice"
   },
   "CEC-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Rosa-V2-CEC236",
    "en": "Rosa",
    "it": "Rina"
   },
   "CEL-24": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Professors-Research-V2",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "CES-161": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Apricorn-Maker-V2-CES161",
    "en": "Apricorn Maker",
    "it": "Costruttore di Apricorn"
   },
   "CES-162": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Bills-Maintenance-V2-CES162",
    "en": "Bill's Maintenance",
    "it": "Sostegno di Bill"
   },
   "CES-163": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Copycat-V2-CES163",
    "en": "Copycat",
    "it": "Copiona"
   },
   "CES-164": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Lisia-V2-CES164",
    "en": "Lisia",
    "it": "Orthilla"
   },
   "CES-165": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Stevens-Resolve-V2-CES165",
    "en": "Steven's Resolve",
    "it": "Grinta di Rocco"
   },
   "CES-166": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Tate-Liza-V2-CES166",
    "en": "Tate & Liza",
    "it": "Tell e Pat"
   },
   "CES-167": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/TV-Reporter-V2-CES167",
    "en": "TV Reporter",
    "it": "Reporter Televisivo"
   },
   "CES-168": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celestial-Storm/Underground-Expedition-V2-CES168",
    "en": "Underground Expedition",
    "it": "Spedizione Sotterranea"
   },
   "CIN-109": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crimson-Invasion/Gladion-V2-CIN109",
    "en": "Gladion",
    "it": "Iridio"
   },
   "CIN-110": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crimson-Invasion/Lusamine-V2-CIN110",
    "en": "Lusamine",
    "it": "Samina"
   },
   "CIN-111": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crimson-Invasion/Olivia-CIN111",
    "en": "Olivia",
    "it": "Alyxia"
   },
   "CPA-73": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Champions-Path/Hop-V2-CPA73",
    "en": "Hop",
    "it": "Hop"
   },
   "CRE-186": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Agatha-V2",
    "en": "Agatha",
    "it": "Agatha"
   },
   "CRE-187": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Avery-V2",
    "en": "Avery",
    "it": "Savory"
   },
   "CRE-188": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Brawly-V2",
    "en": "Brawly",
    "it": "Rudi"
   },
   "CRE-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Caitlin-V2",
    "en": "Caitlin",
    "it": "Catlina"
   },
   "CRE-190": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Doctor-V2",
    "en": "Doctor",
    "it": "Medico"
   },
   "CRE-191": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Flannery-V2",
    "en": "Flannery",
    "it": "Fiammetta"
   },
   "CRE-192": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Honey-V2",
    "en": "Honey",
    "it": "Tania"
   },
   "CRE-193": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Karens-Conviction-V2",
    "en": "Karen's Conviction",
    "it": "Fermezza di Karen"
   },
   "CRE-194": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Klara-V2",
    "en": "Klara",
    "it": "Sofora"
   },
   "CRE-195": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Melony-V2",
    "en": "Melony",
    "it": "Melania"
   },
   "CRE-196": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Peonia-V2",
    "en": "Peonia",
    "it": "Nia"
   },
   "CRE-197": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Peony-V2",
    "en": "Peony",
    "it": "Peony"
   },
   "CRE-198": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chilling-Reign/Siebold-V2",
    "en": "Siebold",
    "it": "Narciso"
   },
   "CRI-106": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/AZs-Tranquility-V2-CRI107",
    "en": "AZ's Tranquility",
    "it": "Tranquillità di AZ"
   },
   "CRI-107": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Emma-V2-CRI108",
    "en": "Emma",
    "it": "Matière"
   },
   "CRI-108": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Energy-Retrieval-CRI106",
    "en": "Energy Retrieval",
    "it": "Recupero di Energia"
   },
   "CRI-109": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Jumbo-Ice-Cream-CRI110",
    "en": "Jumbo Ice Cream",
    "it": "Gelato Gigante"
   },
   "CRI-110": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Philippe-V2-CRI109",
    "en": "Philippe",
    "it": "Gypso"
   },
   "CRI-111": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Prism-Tower-V2-CRI111",
    "en": "Prism Tower",
    "it": "Torre Prisma"
   },
   "CRI-112": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Roxies-Performance-V2-CRI112",
    "en": "Roxie's Performance",
    "it": "Performance di Velia"
   },
   "CRI-113": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Special-Red-Card-V2-CRI113",
    "en": "Special Red Card",
    "it": "Cartelrosso Speciale"
   },
   "CRI-114": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Surfing-Beach-CRI114",
    "en": "Surfing Beach",
    "it": "Spiaggia dei Surfisti"
   },
   "CRI-115": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Tool-Scrapper-CRI115",
    "en": "Tool Scrapper",
    "it": "Scartaoggetti"
   },
   "CRI-120": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/AZs-Tranquility-V3-CRI120",
    "en": "AZ's Tranquility",
    "it": "Tranquillità di AZ"
   },
   "CRI-121": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Chaos-Rising/Roxies-Performance-V3-CRI121",
    "en": "Roxie's Performance",
    "it": "Performance di Velia"
   },
   "CRZ-147": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Elesas-Sparkle-CRZ147",
    "en": "Elesa's Sparkle",
    "it": "Leggiadria di Camelia"
   },
   "CRZ-148": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Hisui-V2-CRZ148",
    "en": "Friends in Hisui",
    "it": "Amici a Hisui"
   },
   "CRZ-149": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149",
    "en": "Friends in Sinnoh",
    "it": "Amici a Sinnoh"
   },
   "CRZ-150": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Professors-Research-CRZ150",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "CRZ-151": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Volo-CRZ151",
    "en": "Volo",
    "it": "Ethelo"
   },
   "CRZ-GG57": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Adaman-CRZGG57",
    "en": "Adaman",
    "it": "Damon"
   },
   "CRZ-GG58": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Cherens-Care-CRZGG58",
    "en": "Cheren's Care",
    "it": "Premura di Komor"
   },
   "CRZ-GG59": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Colresss-Experiment-CRZGG59",
    "en": "Colress's Experiment",
    "it": "Esperimento di Acromio"
   },
   "CRZ-GG60": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Cynthias-Ambition-CRZGG60",
    "en": "Cynthia's Ambition",
    "it": "Ambizione di Camilla"
   },
   "CRZ-GG61": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Gardenias-Vigor-CRZGG61",
    "en": "Gardenia's Vigor",
    "it": "Vigore di Gardenia"
   },
   "CRZ-GG62": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Grant-CRZGG62",
    "en": "Grant",
    "it": "Lino"
   },
   "CRZ-GG63": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Irida-CRZGG63",
    "en": "Irida",
    "it": "Perula"
   },
   "CRZ-GG64": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Melony-CRZGG64",
    "en": "Melony",
    "it": "Melania"
   },
   "CRZ-GG65": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Raihan-V2-CRZGG65",
    "en": "Raihan",
    "it": "Laburno"
   },
   "CRZ-GG66": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Crown-Zenith/Roxanne-CRZGG66",
    "en": "Roxanne",
    "it": "Petra"
   },
   "DAA-186": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Darkness-Ablaze/Kabu-V2-DAA186",
    "en": "Kabu",
    "it": "Kabu"
   },
   "DAA-187": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Darkness-Ablaze/Piers-V2-DAA187",
    "en": "Piers",
    "it": "Ginepro"
   },
   "DAA-188": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Darkness-Ablaze/Pokemon-Breeders-Nurturing-V2-DAA188",
    "en": "Pokémon Breeder's Nurturing",
    "it": "Premura dell'Allevapokémon"
   },
   "DAA-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Darkness-Ablaze/Rose-V2-DAA189",
    "en": "Rose",
    "it": "Rose"
   },
   "DRI-220": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Emcees-Hype-V2-DRI220",
    "en": "Emcee's Hype",
    "it": "Entusiasmo di Emcee"
   },
   "DRI-221": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Ethans-Adventure-V2-DRI221",
    "en": "Ethan's Adventure",
    "it": "Avventura di Armonio"
   },
   "DRI-222": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Judge-V2-DRI222",
    "en": "Judge",
    "it": "Arbitro"
   },
   "DRI-223": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Archer-V2-DRI223",
    "en": "Team Rocket's Archer",
    "it": "Archer del Team Rocket"
   },
   "DRI-224": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Ariana-V2-DRI224",
    "en": "Team Rocket's Ariana",
    "it": "Atena del Team Rocket"
   },
   "DRI-225": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Giovanni-V2-DRI225",
    "en": "Team Rocket's Giovanni",
    "it": "Giovanni del Team Rocket"
   },
   "DRI-226": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Petrel-V2-DRI226",
    "en": "Team Rocket's Petrel",
    "it": "Maxus del Team Rocket"
   },
   "DRI-227": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Proton-V2-DRI227",
    "en": "Team Rocket's Proton",
    "it": "Milas del Team Rocket"
   },
   "DRI-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Ethans-Adventure-V3-DRI236",
    "en": "Ethan's Adventure",
    "it": "Avventura di Armonio"
   },
   "DRI-237": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Ariana-V3-DRI237",
    "en": "Team Rocket's Ariana",
    "it": "Atena del Team Rocket"
   },
   "DRI-238": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Giovanni-V3-DRI238",
    "en": "Team Rocket's Giovanni",
    "it": "Giovanni del Team Rocket"
   },
   "DRM-69": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Blaines-Last-Stand-V2-DRM69",
    "en": "Blaine's Last Stand",
    "it": "Ultimo Tentativo di Blaine"
   },
   "DRM-70": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Zinnia-V2-DRM70",
    "en": "Zinnia",
    "it": "Lyris"
   },
   "EVO-107": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolutions/Brocks-Grit-EVO107",
    "en": "Brock's Grit",
    "it": "Tenacia di Brock"
   },
   "EVO-108": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolutions/Mistys-Determination-V2-EVO108",
    "en": "Misty's Determination",
    "it": "Determinazione di Misty"
   },
   "EVS-199": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolving-Skies/Aroma-Lady-V2",
    "en": "Aroma Lady",
    "it": "Profumina"
   },
   "EVS-200": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolving-Skies/Copycat-V2",
    "en": "Copycat",
    "it": "Copiona"
   },
   "EVS-201": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolving-Skies/Gordie-V2",
    "en": "Gordie",
    "it": "Milo"
   },
   "EVS-202": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolving-Skies/Raihan-V2",
    "en": "Raihan",
    "it": "Laburno"
   },
   "EVS-203": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Evolving-Skies/Zinnias-Resolve-V2",
    "en": "Zinnia's Resolve",
    "it": "Grinta di Lyris"
   },
   "FCO-105a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fates-Collide/N-V2-FCO105a",
    "en": "N",
    "it": "N"
   },
   "FCO-111a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fates-Collide/Shauna-V2-FCO111a",
    "en": "Shauna",
    "it": "Shana"
   },
   "FCO-124": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fates-Collide/Team-Rockets-Handiwork-FCO124",
    "en": "Team Rocket's Handiwork",
    "it": "Malefatte del Team Rocket"
   },
   "FFI-109": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Furious-Fists/Battle-Reporter-V2-FFI109",
    "en": "Battle Reporter",
    "it": "Inviato Speciale"
   },
   "FFI-110": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Furious-Fists/Fossil-Researcher-FFI110",
    "en": "Fossil Researcher",
    "it": "Ricercatore di Fossili"
   },
   "FFI-111": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Furious-Fists/Korrina-FFI111",
    "en": "Korrina",
    "it": "Ornella"
   },
   "FLF-104": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Flashfire/Lysandre-FLF104",
    "en": "Lysandre",
    "it": "Elisio"
   },
   "FLF-105": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Flashfire/Pokemon-Center-Lady-FLF105",
    "en": "Pokémon Center Lady",
    "it": "Addetta del Centro Pokémon"
   },
   "FLF-106": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Flashfire/Pokemon-Fan-Club-V2-FLF106",
    "en": "Pokémon Fan Club",
    "it": "Pokémon Fan Club"
   },
   "FLF-88a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Flashfire/Blacksmith-V2-FLF88a",
    "en": "Blacksmith",
    "it": "Fabbro"
   },
   "FLI-128": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Bonnie-V2-FLI128",
    "en": "Bonnie",
    "it": "Clem"
   },
   "FLI-129": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Crasher-Wake-V2-FLI129",
    "en": "Crasher Wake",
    "it": "Omar il Distruttore"
   },
   "FLI-130": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Diantha-V2-FLI130",
    "en": "Diantha",
    "it": "Diantha"
   },
   "FLI-131": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Recon-Squad-V2-FLI131",
    "en": "Ultra Recon Squad",
    "it": "Ultrapattuglia"
   },
   "FST-258": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Chili-Cilan-Cress-V2",
    "en": "Chili & Cilan & Cress",
    "it": "Chicco, Spighetto e Maisello"
   },
   "FST-259": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Dancer-V2",
    "en": "Dancer",
    "it": "Ballerina"
   },
   "FST-260": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Elesas-Sparkle-V2",
    "en": "Elesa's Sparkle",
    "it": "Leggiadria di Camelia"
   },
   "FST-261": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Schoolboy-V2",
    "en": "Schoolboy",
    "it": "Studente"
   },
   "FST-262": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Schoolgirl-V2",
    "en": "Schoolgirl",
    "it": "Studentessa"
   },
   "FST-263": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Shauna-V2",
    "en": "Shauna",
    "it": "Shana"
   },
   "FST-264": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fusion-Strike/Sidney-V2",
    "en": "Sidney",
    "it": "Fosco"
   },
   "GEN-73a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Generations/Team-Flare-Grunt-V2-GEN73a",
    "en": "Team Flare Grunt",
    "it": "Recluta del Team Flare"
   },
   "GRI-143": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Hala-V2-GRI143",
    "en": "Hala",
    "it": "Hala"
   },
   "GRI-144": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Hau-GRI144",
    "en": "Hau",
    "it": "Hau"
   },
   "GRI-145": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mallow-V2-GRI145",
    "en": "Mallow",
    "it": "Ibis"
   },
   "HIF-67": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Giovannis-Exile-V2-HIF67",
    "en": "Giovanni's Exile",
    "it": "Esilio di Giovanni"
   },
   "HIF-68": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Jessie-James-V2-HIF68",
    "en": "Jessie & James",
    "it": "Jessie e James"
   },
   "HIF-SV81": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Aether-Foundation-Employee-HIFSV81",
    "en": "Aether Foundation Employee",
    "it": "Dipendente della Fondazione Æther"
   },
   "HIF-SV82": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Cynthia-HIFSV82",
    "en": "Cynthia",
    "it": "Camilla"
   },
   "HIF-SV83": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Fisherman-HIFSV83",
    "en": "Fisherman",
    "it": "Pescatore"
   },
   "HIF-SV84": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Guzma-HIFSV84",
    "en": "Guzma",
    "it": "Guzman"
   },
   "HIF-SV85": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Hiker-HIFSV85",
    "en": "Hiker",
    "it": "Montanaro"
   },
   "HIF-SV86": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Hidden-Fates/Lady-HIFSV86",
    "en": "Lady",
    "it": "Lady"
   },
   "JTG-179": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Journey-Together/Brocks-Scouting-V2-JTG179",
    "en": "Brock's Scouting",
    "it": "Ricerca di Brock"
   },
   "JTG-180": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Journey-Together/Iriss-Fighting-Spirit-V2-JTG180",
    "en": "Iris's Fighting Spirit",
    "it": "Spirito Combattivo di Iris"
   },
   "JTG-181": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Journey-Together/Ruffian-V2-JTG181",
    "en": "Ruffian",
    "it": "Ragazzaccio"
   },
   "LOR-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Arezu-V2-LOR189",
    "en": "Arezu",
    "it": "Maru"
   },
   "LOR-190": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Colresss-Experiment-V2-LOR190",
    "en": "Colress's Experiment",
    "it": "Esperimento di Acromio"
   },
   "LOR-191": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Fantina-V2-LOR191",
    "en": "Fantina",
    "it": "Fannie"
   },
   "LOR-192": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Iscan-V2-LOR192",
    "en": "Iscan",
    "it": "Sinen"
   },
   "LOR-193": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Lady-V2-LOR193",
    "en": "Lady",
    "it": "Lady"
   },
   "LOR-194": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Miss-Fortune-Sisters-V2-LOR194",
    "en": "Miss Fortune Sisters",
    "it": "Sorelle Florido"
   },
   "LOR-195": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Thorton-V2-LOR195",
    "en": "Thorton",
    "it": "Spino"
   },
   "LOR-196": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Volo-V2-LOR196",
    "en": "Volo",
    "it": "Ethelo"
   },
   "LOR-TG23": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Adventurers-Discovery-LORTG23",
    "en": "Adventurer's Discovery",
    "it": "Scoperta dell'Avventuriera"
   },
   "LOR-TG24": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Bosss-Orders-LORTG24",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "LOR-TG25": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Cook-LORTG25",
    "en": "Cook",
    "it": "Cuoco"
   },
   "LOR-TG26": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Kabu-LORTG26",
    "en": "Kabu",
    "it": "Kabu"
   },
   "LOR-TG27": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Nessa-LORTG27",
    "en": "Nessa",
    "it": "Azzurra"
   },
   "LOR-TG28": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Origin/Opal-LORTG28",
    "en": "Opal",
    "it": "Poppy"
   },
   "LOT-208": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Faba-V2-LOT208",
    "en": "Faba",
    "it": "Vicio"
   },
   "LOT-209": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Judge-LOT209",
    "en": "Judge",
    "it": "Arbitro"
   },
   "LOT-210": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Kahili-V2-LOT210",
    "en": "Kahili",
    "it": "Kahili"
   },
   "LOT-211": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Mina-V2-LOT211",
    "en": "Mina",
    "it": "Rika"
   },
   "LOT-212": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Morty-V2-LOT212",
    "en": "Morty",
    "it": "Angelo"
   },
   "LOT-213": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Professor-Elms-Lecture-V2-LOT213",
    "en": "Professor Elm's Lecture",
    "it": "Seminario del Professor Elm"
   },
   "LOT-214": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Lost-Thunder/Whitney-V2-LOT214",
    "en": "Whitney",
    "it": "Chiara"
   },
   "MEG-165": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Acerolas-Mischief-V2-MEG165",
    "en": "Acerola's Mischief",
    "it": "Birichinata di Malpi"
   },
   "MEG-166": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Air-Balloon-MEG166",
    "en": "Air Balloon",
    "it": "Palloncino"
   },
   "MEG-167": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Buddy-Buddy-Poffin-MEG167",
    "en": "Buddy-Buddy Poffin",
    "it": "Poffin del Cuore"
   },
   "MEG-168": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Fighting-Gong-V2-MEG168",
    "en": "Fighting Gong",
    "it": "Gong di Lotta"
   },
   "MEG-169": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Lillies-Determination-V2-MEG169",
    "en": "Lillie's Determination",
    "it": "Determinazione di Lylia"
   },
   "MEG-170": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Lt-Surges-Bargain-V2-MEG170",
    "en": "Lt. Surge's Bargain",
    "it": "Affare di Lt. Surge"
   },
   "MEG-171": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Mega-Signal-V2-MEG171",
    "en": "Mega Signal",
    "it": "Megasegnale"
   },
   "MEG-172": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Mystery-Garden-V2-MEG172",
    "en": "Mystery Garden",
    "it": "Giardino dei Misteri"
   },
   "MEG-173": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Night-Stretcher-MEG173",
    "en": "Night Stretcher",
    "it": "Barella Notturna"
   },
   "MEG-174": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Premium-Power-Pro-V2-MEG174",
    "en": "Premium Power Pro",
    "it": "Potenza Premium Pro"
   },
   "MEG-175": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Rare-Candy-V2-MEG175",
    "en": "Rare Candy",
    "it": "Caramella rara"
   },
   "MEG-176": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Wallys-Compassion-V2-MEG176",
    "en": "Wally's Compassion",
    "it": "Compassione di Lino"
   },
   "MEG-183": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Acerolas-Mischief-V3-MEG183",
    "en": "Acerola's Mischief",
    "it": "Birichinata di Malpi"
   },
   "MEG-184": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Lillies-Determination-V3-MEG184",
    "en": "Lillie's Determination",
    "it": "Determinazione di Lylia"
   },
   "MEG-185": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Lt-Surges-Bargain-V3-MEG185",
    "en": "Lt. Surge's Bargain",
    "it": "Affare di Lt. Surge"
   },
   "MEG-186": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Mega-Evolution/Wallys-Compassion-V3-MEG186",
    "en": "Wally's Compassion",
    "it": "Compassione di Lino"
   },
   "MEW-194": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Bills-Transfer-V2-MEW194",
    "en": "Bill's Transfer",
    "it": "Trasferimento di Bill"
   },
   "MEW-195": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Daisys-Help-V2-MEW195",
    "en": "Daisy's Help",
    "it": "Aiuto di Margi"
   },
   "MEW-196": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Erikas-Invitation-V2-MEW196",
    "en": "Erika's Invitation",
    "it": "Invito di Erika"
   },
   "MEW-197": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Giovannis-Charisma-V2-MEW197",
    "en": "Giovanni's Charisma",
    "it": "Carisma di Giovanni"
   },
   "MEW-203": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Erikas-Invitation-V3-MEW203",
    "en": "Erika's Invitation",
    "it": "Invito di Erika"
   },
   "MEW-204": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/151/Giovannis-Charisma-V3-MEW204",
    "en": "Giovanni's Charisma",
    "it": "Carisma di Giovanni"
   },
   "NVI-101": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Noble-Victories/N-V2-NVI101",
    "en": "N",
    "it": "N"
   },
   "OBF-218": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Geeta-V2-OBF218",
    "en": "Geeta",
    "it": "Alisma"
   },
   "OBF-219": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Ortega-V2-OBF219",
    "en": "Ortega",
    "it": "Ortiz"
   },
   "OBF-220": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Poppy-V2-OBF220",
    "en": "Poppy",
    "it": "Verina"
   },
   "OBF-221": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Ryme-V2-OBF221",
    "en": "Ryme",
    "it": "Lima"
   },
   "OBF-226": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Geeta-V3-OBF226",
    "en": "Geeta",
    "it": "Alisma"
   },
   "OBF-227": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Obsidian-Flames/Poppy-V3-OBF227",
    "en": "Poppy",
    "it": "Verina"
   },
   "PAF-227": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Clive-V2-PAF227",
    "en": "Clive",
    "it": "Garoff"
   },
   "PAF-228": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Judge-PAF228",
    "en": "Judge",
    "it": "Arbitro"
   },
   "PAF-229": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Nemona-V2-PAF229",
    "en": "Nemona",
    "it": "Nemi"
   },
   "PAF-230": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Paldean-Student-V3-PAF230",
    "en": "Paldean Student",
    "it": "Studenti di Paldea"
   },
   "PAF-231": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Paldean-Student-V4-PAF231",
    "en": "Paldean Student",
    "it": "Studenti di Paldea"
   },
   "PAF-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Arven-PAF235",
    "en": "Arven",
    "it": "Pepe"
   },
   "PAF-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Clive-V3-PAF236",
    "en": "Clive",
    "it": "Garoff"
   },
   "PAF-237": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Iono-V2-PAF237",
    "en": "Iono",
    "it": "Kissara"
   },
   "PAF-238": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Nemona-V3-PAF238",
    "en": "Nemona",
    "it": "Nemi"
   },
   "PAF-239": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldean-Fates/Penny-PAF239",
    "en": "Penny",
    "it": "Penny"
   },
   "PAL-248": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Bosss-Orders-V2-PAL248",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "PAL-249": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Clavell-V2-PAL249",
    "en": "Clavell",
    "it": "Clavel"
   },
   "PAL-250": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Dendra-V2-PAL250",
    "en": "Dendra",
    "it": "Dendra"
   },
   "PAL-251": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Falkner-V2-PAL251",
    "en": "Falkner",
    "it": "Valerio"
   },
   "PAL-252": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Giacomo-V2-PAL252",
    "en": "Giacomo",
    "it": "Romelio"
   },
   "PAL-253": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Grusha-V2-PAL253",
    "en": "Grusha",
    "it": "Grusha"
   },
   "PAL-254": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Iono-V2-PAL254",
    "en": "Iono",
    "it": "Kissara"
   },
   "PAL-255": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Saguaro-V2-PAL255",
    "en": "Saguaro",
    "it": "Guaro"
   },
   "PAL-265": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Bosss-Orders-V3-PAL265",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "PAL-266": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Dendra-V3-PAL266",
    "en": "Dendra",
    "it": "Dendra"
   },
   "PAL-267": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Giacomo-V3-PAL267",
    "en": "Giacomo",
    "it": "Romelio"
   },
   "PAL-268": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Grusha-V3-PAL268",
    "en": "Grusha",
    "it": "Grusha"
   },
   "PAL-269": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Iono-V3-PAL269",
    "en": "Iono",
    "it": "Kissara"
   },
   "PAL-270": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paldea-Evolved/Saguaro-V3-PAL270",
    "en": "Saguaro",
    "it": "Guaro"
   },
   "PAR-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Larry-V2-PAR235",
    "en": "Larry",
    "it": "Ubaldo"
   },
   "PAR-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Mela-V2-PAR236",
    "en": "Mela",
    "it": "Pruna"
   },
   "PAR-237": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Norman-V2-PAR237",
    "en": "Norman",
    "it": "Norman"
   },
   "PAR-238": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Parasol-Lady-V2-PAR238",
    "en": "Parasol Lady",
    "it": "Ombrellina"
   },
   "PAR-239": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Professor-Sadas-Vitality-V2-PAR239",
    "en": "Professor Sada's Vitality",
    "it": "Vitalità della Professoressa Olim"
   },
   "PAR-240": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Professor-Turos-Scenario-V2-PAR240",
    "en": "Professor Turo's Scenario",
    "it": "Scenario del Professor Turum"
   },
   "PAR-241": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Rika-V2-PAR241",
    "en": "Rika",
    "it": "Capsi"
   },
   "PAR-242": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Roark-V2-PAR242",
    "en": "Roark",
    "it": "Pedro"
   },
   "PAR-243": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Shauntal-V2-PAR243",
    "en": "Shauntal",
    "it": "Antemia"
   },
   "PAR-244": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Tulip-V2-PAR244",
    "en": "Tulip",
    "it": "Tulipa"
   },
   "PAR-254": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Mela-V3-PAR254",
    "en": "Mela",
    "it": "Pruna"
   },
   "PAR-255": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Parasol-Lady-V3-PAR255",
    "en": "Parasol Lady",
    "it": "Ombrellina"
   },
   "PAR-256": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Professor-Sadas-Vitality-V3-PAR256",
    "en": "Professor Sada's Vitality",
    "it": "Vitalità della Professoressa Olim"
   },
   "PAR-257": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Professor-Turos-Scenario-V3-PAR257",
    "en": "Professor Turo's Scenario",
    "it": "Scenario del Professor Turum"
   },
   "PAR-258": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Rika-V3-PAR258",
    "en": "Rika",
    "it": "Capsi"
   },
   "PAR-259": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Paradox-Rift/Tulip-V3-PAR259",
    "en": "Tulip",
    "it": "Tulipa"
   },
   "PBL-104": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Brave-Bangle-PBL104",
    "en": "Brave Bangle",
    "it": "Braccialcoraggio"
   },
   "PBL-105": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Crushing-Hammer-PBL105",
    "en": "Crushing Hammer",
    "it": "Martello Dirompente"
   },
   "PBL-106": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Dark-Bell-V2-PBL106",
    "en": "Dark Bell",
    "it": "Campanella Oscura"
   },
   "PBL-107": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Energy-Switch-PBL107",
    "en": "Energy Switch",
    "it": "Scambio di Energia"
   },
   "PBL-108": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Gladions-Final-Battle-V2-PBL108",
    "en": "Gladion's Final Battle",
    "it": "Lotta Finale di Iridio"
   },
   "PBL-109": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Gwynn-V2-PBL109",
    "en": "Gwynn",
    "it": "Imma"
   },
   "PBL-110": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Iron-Defender-PBL110",
    "en": "Iron Defender",
    "it": "Difensore Ferreo"
   },
   "PBL-111": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Mistys-Vitality-V2-PBL111",
    "en": "Misty's Vitality",
    "it": "Vitalità di Misty"
   },
   "PBL-112": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Rust-Syndicate-Grunt-V2-PBL112",
    "en": "Rust Syndicate Grunt",
    "it": "Recluta del Clan Ruggine"
   },
   "PBL-113": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Tremendous-Bomb-V2-PBL113",
    "en": "Tremendous Bomb",
    "it": "Bomba Assurda"
   },
   "PBL-118": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Gladions-Final-Battle-V3-PBL118",
    "en": "Gladion's Final Battle",
    "it": "Lotta Finale di Iridio"
   },
   "PBL-119": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pitch-Black/Gwynn-V3-PBL119",
    "en": "Gwynn",
    "it": "Imma"
   },
   "PFL-116": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Battle-Cage-V2-PFL116",
    "en": "Battle Cage",
    "it": "Gabbia di Lotta"
   },
   "PFL-117": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Blowtorch-V2-PFL117",
    "en": "Blowtorch",
    "it": "Fiamma Ossidrica"
   },
   "PFL-118": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Dawn-V2-PFL118",
    "en": "Dawn",
    "it": "Lucinda"
   },
   "PFL-119": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Firebreather-V2-PFL119",
    "en": "Firebreather",
    "it": "Mangiafuoco"
   },
   "PFL-120": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Grimsleys-Move-V2-PFL120",
    "en": "Grimsley's Move",
    "it": "Mossa di Mirton"
   },
   "PFL-121": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Punk-Helmet-V2-PFL121",
    "en": "Punk Helmet",
    "it": "Elmo Punk"
   },
   "PFL-122": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Sacred-Charm-V2-PFL122",
    "en": "Sacred Charm",
    "it": "Amuleto Magico"
   },
   "PFL-123": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Switch-PFL123",
    "en": "Switch",
    "it": "Scambio"
   },
   "PFL-129": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantasmal-Flames/Dawn-V3-PFL129",
    "en": "Dawn",
    "it": "Lucinda"
   },
   "PGO-78": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Pokemon-GO/Professors-Research-V1-PGO078",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "PHF-117": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantom-Forces/AZ-PHF117",
    "en": "AZ",
    "it": "AZ"
   },
   "PHF-118": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantom-Forces/Lysandres-Trump-Card-PHF118",
    "en": "Lysandre's Trump Card",
    "it": "Asso di Elisio"
   },
   "PHF-119": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Phantom-Forces/Xerosic-PHF119",
    "en": "Xerosic",
    "it": "Xante"
   },
   "PLB-101": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Plasma-Blast/Iris-PLB101",
    "en": "Iris",
    "it": "Iris"
   },
   "PLF-115": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Plasma-Freeze/Ghetsis-V2-PLF115",
    "en": "Ghetsis",
    "it": "Ghecis"
   },
   "PLF-116": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Plasma-Freeze/Professor-Juniper-PLF116",
    "en": "Professor Juniper",
    "it": "Prof.ssa Aralia"
   },
   "PLS-135": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Plasma-Storm/Colress-V2-PLS135",
    "en": "Colress",
    "it": "Acromio"
   },
   "POR-108": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Energy-Recycler-POR108",
    "en": "Energy Recycler",
    "it": "Riciclaggio di Energia"
   },
   "POR-109": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Forest-of-Vitality-POR109",
    "en": "Forest of Vitality",
    "it": "Bosco della Vitalità"
   },
   "POR-110": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Jacinthe-V2-POR110",
    "en": "Jacinthe",
    "it": "Viola"
   },
   "POR-111": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Lumiose-City-V2-POR111",
    "en": "Lumiose City",
    "it": "Luminopoli"
   },
   "POR-112": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Naveen-V2-POR112",
    "en": "Naveen",
    "it": "Virgil"
   },
   "POR-113": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Poke-Pad-V2-POR113",
    "en": "Poké Pad",
    "it": "Poké Pad"
   },
   "POR-114": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Rosas-Encouragement-V2-POR114",
    "en": "Rosa's Encouragement",
    "it": "Incoraggiamento di Rina"
   },
   "POR-115": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Sacred-Ash-POR115",
    "en": "Sacred Ash",
    "it": "Cenere magica"
   },
   "POR-116": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Tarragon-V2-POR116",
    "en": "Tarragon",
    "it": "Tarragon"
   },
   "POR-117": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Wondrous-Patch-POR117",
    "en": "Wondrous Patch",
    "it": "Distintivo Meraviglioso"
   },
   "POR-122": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Jacinthe-V3-POR122",
    "en": "Jacinthe",
    "it": "Viola"
   },
   "POR-123": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Rosas-Encouragement-V3-POR123",
    "en": "Rosa's Encouragement",
    "it": "Incoraggiamento di Rina"
   },
   "PRC-157": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Primal-Clash/Archies-Ace-in-the-Hole-PRC157",
    "en": "Archie's Ace in the Hole",
    "it": "Asso nella Manica di Ivan"
   },
   "PRC-158": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Primal-Clash/Maxies-Hidden-Ball-Trick-PRC158",
    "en": "Maxie's Hidden Ball Trick",
    "it": "Doppio Passo di Max"
   },
   "PRC-159": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Primal-Clash/Professor-Birchs-Observations-PRC159",
    "en": "Professor Birch's Observations",
    "it": "Parere del Professor Birch"
   },
   "PRC-160": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Primal-Clash/Teammates-PRC160",
    "en": "Teammates",
    "it": "Senior & Junior"
   },
   "PRE-132": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Amarys-V2-PRE132",
    "en": "Amarys",
    "it": "Erin"
   },
   "PRE-133": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Atticus-V1-PRE133",
    "en": "Atticus",
    "it": "Henzo"
   },
   "PRE-134": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Atticus-V2-PRE134",
    "en": "Atticus",
    "it": "Henzo"
   },
   "PRE-135": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Brassius-PRE135",
    "en": "Brassius",
    "it": "Brassius"
   },
   "PRE-136": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Eri-PRE136",
    "en": "Eri",
    "it": "Nespera"
   },
   "PRE-137": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Friends-in-Paldea-V2-PRE137",
    "en": "Friends in Paldea",
    "it": "Amici a Paldea"
   },
   "PRE-138": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Giacomo-PRE138",
    "en": "Giacomo",
    "it": "Romelio"
   },
   "PRE-139": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Larrys-Skill-V2-PRE139",
    "en": "Larry's Skill",
    "it": "Competenza di Ubaldo"
   },
   "PRE-140": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Mela-PRE140",
    "en": "Mela",
    "it": "Pruna"
   },
   "PRE-141": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Ortega-PRE141",
    "en": "Ortega",
    "it": "Ortiz"
   },
   "PRE-142": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Raifort-PRE142",
    "en": "Raifort",
    "it": "Morasia"
   },
   "PRE-143": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Tyme-PRE143",
    "en": "Tyme",
    "it": "Thyma"
   },
   "PRE-170": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Amarys-V3-PRE170",
    "en": "Amarys",
    "it": "Erin"
   },
   "PRE-171": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Crispin-V2-PRE171",
    "en": "Crispin",
    "it": "Piros"
   },
   "PRE-172": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Drayton-PRE172",
    "en": "Drayton",
    "it": "Aris"
   },
   "PRE-173": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Janines-Secret-Art-V2-PRE173",
    "en": "Janine's Secret Art",
    "it": "Arte Segreta di Nina"
   },
   "PRE-174": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Kieran-V2-PRE174",
    "en": "Kieran",
    "it": "Riben"
   },
   "PRE-175": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Prismatic-Evolutions/Lacey-V2-PRE175",
    "en": "Lacey",
    "it": "Rupi"
   },
   "RCL-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Rebel-Clash/Bosss-Orders-V2-RCL189",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "RCL-190": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Rebel-Clash/Milo-V2-RCL190",
    "en": "Milo",
    "it": "Yarrow"
   },
   "RCL-191": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Rebel-Clash/Oleana-V2-RCL191",
    "en": "Oleana",
    "it": "Olive"
   },
   "RCL-192": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Rebel-Clash/Sonia-V2-RCL192",
    "en": "Sonia",
    "it": "Sonia"
   },
   "ROS-107": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Roaring-Skies/Wally-ROS107",
    "en": "Wally",
    "it": "Lino"
   },
   "ROS-108": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Roaring-Skies/Winona-ROS108",
    "en": "Winona",
    "it": "Alice"
   },
   "SCR-163": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Briar-V2-SCR163",
    "en": "Briar",
    "it": "Rea"
   },
   "SCR-164": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Crispin-V2-SCR164",
    "en": "Crispin",
    "it": "Piros"
   },
   "SCR-165": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Kofu-V2-SCR165",
    "en": "Kofu",
    "it": "Algaro"
   },
   "SCR-166": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Lacey-V2-SCR166",
    "en": "Lacey",
    "it": "Rupi"
   },
   "SCR-171": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Briar-V3-SCR171",
    "en": "Briar",
    "it": "Rea"
   },
   "SCR-172": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stellar-Crown/Lacey-V3-SCR172",
    "en": "Lacey",
    "it": "Rupi"
   },
   "SFA-86": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shrouded-Fable/Cassiopeia-V2-SFA086",
    "en": "Cassiopeia",
    "it": "Cassiopea"
   },
   "SFA-87": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shrouded-Fable/Colresss-Tenacity-V2-SFA087",
    "en": "Colress's Tenacity",
    "it": "Perseveranza di Acromio"
   },
   "SFA-88": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shrouded-Fable/Janines-Secret-Art-V2-SFA088",
    "en": "Janine's Secret Art",
    "it": "Arte Segreta di Nina"
   },
   "SFA-89": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shrouded-Fable/Xerosics-Machinations-V2-SFA089",
    "en": "Xerosic's Machinations",
    "it": "Macchinazioni di Xante"
   },
   "SFA-94": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shrouded-Fable/Cassiopeia-V3-SFA094",
    "en": "Cassiopeia",
    "it": "Cassiopea"
   },
   "SHF-65": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Ball-Guy-V2",
    "en": "Ball Guy",
    "it": "Ballino"
   },
   "SHF-66": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Bird-Keeper",
    "en": "Bird Keeper",
    "it": "Avicoltore"
   },
   "SHF-67": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Cara-Liss",
    "en": "Cara Liss",
    "it": "Fossilia Di Strattis"
   },
   "SHF-68": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Gym-Trainer-V2",
    "en": "Gym Trainer",
    "it": "Allenatore della Palestra"
   },
   "SHF-69": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Piers",
    "en": "Piers",
    "it": "Ginepro"
   },
   "SHF-70": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Poke-Kid",
    "en": "Poké Kid",
    "it": "Poké Bimbo"
   },
   "SHF-71": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Rose",
    "en": "Rose",
    "it": "Rose"
   },
   "SHF-72": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Fates/Skyla",
    "en": "Skyla",
    "it": "Anemone"
   },
   "SIT-188": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Brandon-V2-SIT188",
    "en": "Brandon",
    "it": "Baldo"
   },
   "SIT-189": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Candice-V2-SIT189",
    "en": "Candice",
    "it": "Bianca"
   },
   "SIT-190": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Furisode-Girl-V2-SIT190",
    "en": "Furisode Girl",
    "it": "Ragazza in kimono"
   },
   "SIT-191": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V2-SIT191",
    "en": "Gym Trainer",
    "it": "Allenatore della Palestra"
   },
   "SIT-192": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lance-V2-SIT192",
    "en": "Lance",
    "it": "Lance"
   },
   "SIT-193": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Serena-V2-SIT193",
    "en": "Serena",
    "it": "Serena"
   },
   "SIT-194": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Wallace-V2-SIT194",
    "en": "Wallace",
    "it": "Adriano"
   },
   "SIT-195": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Worker-V2-SIT195",
    "en": "Worker",
    "it": "Lavoratrice"
   },
   "SIT-TG23": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Friends-in-Galar-SITTG23",
    "en": "Friends in Galar",
    "it": "Amici a Galar"
   },
   "SIT-TG24": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Gordie-SITTG24",
    "en": "Gordie",
    "it": "Milo"
   },
   "SIT-TG25": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Judge-SITTG25",
    "en": "Judge",
    "it": "Arbitro"
   },
   "SIT-TG26": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Professor-Burnet-SITTG26",
    "en": "Professor Burnet",
    "it": "Professoressa Magnolia"
   },
   "SIT-TG27": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Raihan-SITTG27",
    "en": "Raihan",
    "it": "Laburno"
   },
   "SIT-TG28": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Sordward-Shielbert-SITTG28",
    "en": "Sordward & Shielbert",
    "it": "Brandobaldo e Scudobaldo"
   },
   "SLG-73": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Pokemon-Breeder-V2-SLG73",
    "en": "Pokémon Breeder",
    "it": "Allevapokémon"
   },
   "SP-121": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Marnie-V2",
    "en": "Marnie",
    "it": "Mary"
   },
   "SP-152": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Professors-Research-V2-SWSH152",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "SP-226": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Spark-SWSH226",
    "en": "Spark",
    "it": "Spark"
   },
   "SP-227": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Blanche-SWSH227",
    "en": "Blanche",
    "it": "Blanche"
   },
   "SP-228": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Candela-SWSH228",
    "en": "Candela",
    "it": "Candela"
   },
   "SP-251": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Bosss-Orders-SWSH251",
    "en": "Boss's Orders",
    "it": "Ordini del Capo"
   },
   "SP-302": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Klara-SWSH302",
    "en": "Klara",
    "it": "Sofora"
   },
   "SSH-199": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sword-Shield/Bede-V2-SSH199",
    "en": "Bede",
    "it": "Beet"
   },
   "SSH-200": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sword-Shield/Marnie-V2-SSH200",
    "en": "Marnie",
    "it": "Mary"
   },
   "SSH-201": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sword-Shield/Professors-Research-V2-SSH201",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "SSH-202": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sword-Shield/Team-Yell-Grunt-V2-SSH202",
    "en": "Team Yell Grunt",
    "it": "Recluta del Team Yell"
   },
   "SSP-229": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Clemonts-Quick-Wit-V2-SSP229",
    "en": "Clemont's Quick Wit",
    "it": "Arguzia di Lem"
   },
   "SSP-230": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Cyrano-V2-SSP230",
    "en": "Cyrano",
    "it": "Bluebert"
   },
   "SSP-231": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Drasna-V2-SSP231",
    "en": "Drasna",
    "it": "Lilia"
   },
   "SSP-232": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Drayton-V2-SSP232",
    "en": "Drayton",
    "it": "Aris"
   },
   "SSP-233": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Jasmines-Gaze-V2-SSP233",
    "en": "Jasmine's Gaze",
    "it": "Sguardo di Jasmine"
   },
   "SSP-234": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Lisias-Appeal-V2-SSP234",
    "en": "Lisia's Appeal",
    "it": "Fascino di Orthilla"
   },
   "SSP-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Surfer-V2-SSP235",
    "en": "Surfer",
    "it": "Surfista"
   },
   "SSP-243": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Clemonts-Quick-Wit-V3-SSP243",
    "en": "Clemont's Quick Wit",
    "it": "Arguzia di Lem"
   },
   "SSP-244": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Drayton-V3-SSP244",
    "en": "Drayton",
    "it": "Aris"
   },
   "SSP-245": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Jasmines-Gaze-V3-SSP245",
    "en": "Jasmine's Gaze",
    "it": "Sguardo di Jasmine"
   },
   "SSP-246": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Surging-Sparks/Lisias-Appeal-V3-SSP246",
    "en": "Lisia's Appeal",
    "it": "Fascino di Orthilla"
   },
   "STS-113": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Steam-Siege/Pokemon-Ranger-V2-STS113",
    "en": "Pokémon Ranger",
    "it": "Pokémon Ranger"
   },
   "STS-114": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Steam-Siege/Professor-Sycamore-STS114",
    "en": "Professor Sycamore",
    "it": "Professor Platan"
   },
   "SUM-146": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sun-Moon/Ilima-V2-SUM146",
    "en": "Ilima",
    "it": "Liam"
   },
   "SUM-147": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sun-Moon/Lillie-V2-SUM147",
    "en": "Lillie",
    "it": "Lylia"
   },
   "SUM-148": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sun-Moon/Professor-Kukui-V2-SUM148",
    "en": "Professor Kukui",
    "it": "Professor Kukui"
   },
   "SUM-149": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Sun-Moon/Team-Skull-Grunt-V2-SUM149",
    "en": "Team Skull Grunt",
    "it": "Recluta del Team Skull"
   },
   "SVI-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Arven-V2-SV1en235",
    "en": "Arven",
    "it": "Pepe"
   },
   "SVI-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Jacq-V2-SV1en236",
    "en": "Jacq",
    "it": "Zim"
   },
   "SVI-237": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Katy-V2-SV1en237",
    "en": "Katy",
    "it": "Aceria"
   },
   "SVI-238": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V2-SV1en238",
    "en": "Miriam",
    "it": "Mimosa"
   },
   "SVI-239": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Penny-V2-SV1en239",
    "en": "Penny",
    "it": "Penny"
   },
   "SVI-240": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Professors-Research-V3-SV1en240",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "SVI-241": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Professors-Research-V3-SV1en241",
    "en": "Professor's Research",
    "it": "Ricerca Accademica"
   },
   "SVI-242": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Team-Star-Grunt-V2-SV1en242",
    "en": "Team Star Grunt",
    "it": "Recluta del Team Star"
   },
   "SVI-249": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Arven-V3-SV1en249",
    "en": "Arven",
    "it": "Pepe"
   },
   "SVI-250": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Jacq-V3-SV1en250",
    "en": "Jacq",
    "it": "Zim"
   },
   "SVI-251": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SV1en251",
    "en": "Miriam",
    "it": "Mimosa"
   },
   "SVI-252": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Scarlet-Violet/Penny-V3-SV1en252",
    "en": "Penny",
    "it": "Penny"
   },
   "SVP-124": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/SV-Black-Star-Promos/Iono-SVP124",
    "en": "Iono",
    "it": "Kissara"
   },
   "TEF-197": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Biancas-Devotion-V2-TEF197",
    "en": "Bianca's Devotion",
    "it": "Dedizione di Belle"
   },
   "TEF-198": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Ciphermaniacs-Codebreaking-V2-TEF198",
    "en": "Ciphermaniac's Codebreaking",
    "it": "Decrittazione Esperta"
   },
   "TEF-199": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Eri-V2-TEF199",
    "en": "Eri",
    "it": "Nespera"
   },
   "TEF-200": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Explorers-Guidance-V2-TEF200",
    "en": "Explorer's Guidance",
    "it": "Guida dell'Esploratore"
   },
   "TEF-201": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Mortys-Conviction-V2-TEF201",
    "en": "Morty's Conviction",
    "it": "Fermezza di Angelo"
   },
   "TEF-202": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Salvatore-V2-TEF202",
    "en": "Salvatore",
    "it": "Salvis"
   },
   "TEF-209": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Biancas-Devotion-V3-TEF209",
    "en": "Bianca's Devotion",
    "it": "Dedizione di Belle"
   },
   "TEF-210": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Eri-V3-TEF210",
    "en": "Eri",
    "it": "Nespera"
   },
   "TEF-211": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Mortys-Conviction-V3-TEF211",
    "en": "Morty's Conviction",
    "it": "Fermezza di Angelo"
   },
   "TEF-212": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Temporal-Forces/Salvatore-V3-TEF212",
    "en": "Salvatore",
    "it": "Salvis"
   },
   "TEU-172": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Brocks-Grit-V2-TEU172",
    "en": "Brock's Grit",
    "it": "Tenacia di Brock"
   },
   "TEU-173": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Dana-V2-TEU173",
    "en": "Dana",
    "it": "Meridia"
   },
   "TEU-174": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Erikas-Hospitality-V2-TEU174",
    "en": "Erika's Hospitality",
    "it": "Ospitalità di Erika"
   },
   "TEU-175": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Evelyn-V2-TEU175",
    "en": "Evelyn",
    "it": "Vespera"
   },
   "TEU-176": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Ingo-Emmet-V2-TEU176",
    "en": "Ingo & Emmet",
    "it": "Andy e Torn"
   },
   "TEU-177": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Jasmine-V2-TEU177",
    "en": "Jasmine",
    "it": "Jasmine"
   },
   "TEU-178": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Morgan-V2-TEU178",
    "en": "Morgan",
    "it": "Aurora"
   },
   "TEU-179": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Nanu-V2-TEU179",
    "en": "Nanu",
    "it": "Augusto"
   },
   "TEU-180": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Nita-V2-TEU180",
    "en": "Nita",
    "it": "Notturna"
   },
   "TEU-181": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Up/Sabrinas-Suggestion-V2-TEU181",
    "en": "Sabrina's Suggestion",
    "it": "Suggerimento di Sabrina"
   },
   "TWM-203": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Caretaker-V2-TWM203",
    "en": "Caretaker",
    "it": "Responsabile"
   },
   "TWM-204": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Carmine-V2-TWM204",
    "en": "Carmine",
    "it": "Rubra"
   },
   "TWM-205": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Hassel-V2-TWM205",
    "en": "Hassel",
    "it": "Oranzio"
   },
   "TWM-206": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Kieran-V2-TWM206",
    "en": "Kieran",
    "it": "Riben"
   },
   "TWM-207": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Lanas-Aid-V2-TWM207",
    "en": "Lana's Aid",
    "it": "Soccorso di Suiren"
   },
   "TWM-208": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Lucian-V2-TWM208",
    "en": "Lucian",
    "it": "Luciano"
   },
   "TWM-209": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Perrin-V2-TWM209",
    "en": "Perrin",
    "it": "Litha"
   },
   "TWM-217": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Carmine-V3-TWM217",
    "en": "Carmine",
    "it": "Rubra"
   },
   "TWM-218": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Kieran-V3-TWM218",
    "en": "Kieran",
    "it": "Riben"
   },
   "TWM-219": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Lanas-Aid-V3-TWM219",
    "en": "Lana's Aid",
    "it": "Soccorso di Suiren"
   },
   "TWM-220": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Twilight-Masquerade/Perrin-V3-TWM220",
    "en": "Perrin",
    "it": "Litha"
   },
   "UNB-209": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Greens-Exploration-V2-UNB209",
    "en": "Green's Exploration",
    "it": "Esplorazione di Verde"
   },
   "UNB-210": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Janine-V2-UNB210",
    "en": "Janine",
    "it": "Nina"
   },
   "UNB-211": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Kogas-Trap-V2-UNB211",
    "en": "Koga's Trap",
    "it": "Trappola di Koga"
   },
   "UNB-212": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Molayne-V2-UNB212",
    "en": "Molayne",
    "it": "Tapso"
   },
   "UNB-213": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Reds-Challenge-V2-UNB213",
    "en": "Red's Challenge",
    "it": "Sfida di Rosso"
   },
   "UNB-214": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V2-UNB214",
    "en": "Welder",
    "it": "Saldatrice"
   },
   "UNM-231": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Blues-Tactics-V2-UNM231",
    "en": "Blue's Tactics",
    "it": "Tattica di Blu"
   },
   "UNM-232": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Channeler-V2-UNM232",
    "en": "Channeler",
    "it": "Medium"
   },
   "UNM-233": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Coach-Trainer-V2-UNM233",
    "en": "Coach Trainer",
    "it": "Coach"
   },
   "UNM-234": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Grimsley-V2-UNM234",
    "en": "Grimsley",
    "it": "Mirton"
   },
   "UNM-235": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Mistys-Favor-V2-UNM235",
    "en": "Misty's Favor",
    "it": "Cortesia di Misty"
   },
   "UNM-236": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unified-Minds/Poke-Maniac-V2-UNM236",
    "en": "Poké Maniac",
    "it": "Pokéfanatico"
   },
   "UPR-148": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Cynthia-V2-UPR148",
    "en": "Cynthia",
    "it": "Camilla"
   },
   "UPR-149": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Gardenia-V2-UPR149",
    "en": "Gardenia",
    "it": "Gardenia"
   },
   "UPR-150": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Lana-UPR150",
    "en": "Lana",
    "it": "Suiren"
   },
   "UPR-151": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Lillie-V2-UPR151",
    "en": "Lillie",
    "it": "Lylia"
   },
   "UPR-152": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Looker-V2-UPR152",
    "en": "Looker",
    "it": "Bellocchio"
   },
   "UPR-153": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Lusamine-UPR153",
    "en": "Lusamine",
    "it": "Samina"
   },
   "UPR-154": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Mars-V2-UPR154",
    "en": "Mars",
    "it": "Martes"
   },
   "UPR-155": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Pokemon-Fan-Club-V2-UPR155",
    "en": "Pokémon Fan Club",
    "it": "Pokémon Fan Club"
   },
   "UPR-156": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Ultra-Prism/Volkner-V2-UPR156",
    "en": "Volkner",
    "it": "Corrado"
   },
   "VIV-179": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Allister-V2-VIV179",
    "en": "Allister",
    "it": "Onion"
   },
   "VIV-180": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Bea-V2-VIV180",
    "en": "Bea",
    "it": "Fabia"
   },
   "VIV-181": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Beauty-V2-VIV181",
    "en": "Beauty",
    "it": "Bellezza"
   },
   "VIV-182": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Leon-V2-VIV182",
    "en": "Leon",
    "it": "Dandel"
   },
   "VIV-183": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Nessa-V2-VIV183",
    "en": "Nessa",
    "it": "Azzurra"
   },
   "VIV-184": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Opal-V2-VIV184",
    "en": "Opal",
    "it": "Poppy"
   },
   "VIV-185": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Vivid-Voltage/Pokemon-Center-Lady-V2-VIV185",
    "en": "Pokémon Center Lady",
    "it": "Addetta del Centro Pokémon"
   },
   "WHT-163": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/White-Flare/Harlequin-V2-WHT163",
    "en": "Harlequin",
    "it": "Buffone"
   },
   "WHT-164": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/White-Flare/Hilda-V2-WHT164",
    "en": "Hilda",
    "it": "Anita"
   },
   "WHT-171": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/White-Flare/Hilda-V3-WHT171",
    "en": "Hilda",
    "it": "Anita"
   },
   "XYP-177a": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY-Black-Star-Promos/Karen-V2-XYPRXY177a",
    "en": "Karen",
    "it": "Karen"
   }

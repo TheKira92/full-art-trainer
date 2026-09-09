@@ -74,11 +74,19 @@ for r in kept:
         c["ne"] = nm["en"]
     if nm.get("it") and nm["it"] != nm.get("en"):
         c["ni"] = nm["it"]
+    # cm: link al prodotto su Cardmarket, per la scheda prezzi
+    if nm.get("cm"):
+        c["cm"] = nm["cm"]
     cards.append(c)
 
 senza_nome = sum(1 for c in cards if "ne" not in c and "ni" not in c)
 if senza_nome:
     print(f"Carte senza nome in cache: {senza_nome} (rilancia fetch_names.py).",
+          file=sys.stderr)
+
+senza_cm = sum(1 for c in cards if "cm" not in c)
+if senza_cm:
+    print(f"Carte senza link Cardmarket: {senza_cm} (rilancia fetch_names.py).",
           file=sys.stderr)
 
 def numkey(n):
@@ -225,6 +233,35 @@ HTML = r'''<!DOCTYPE html>
     border-radius:10px;opacity:0;transition:.25s;pointer-events:none;z-index:80;box-shadow:0 6px 20px rgba(0,0,0,.4)}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
+  /* ---- scheda prezzi Cardmarket (pressione prolungata su una carta) ---- */
+  .card,.card img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+  .sheet-bd{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.6);
+    opacity:0;pointer-events:none;transition:.2s}
+  .sheet-bd.open{opacity:1;pointer-events:auto}
+  .sheet{position:fixed;z-index:91;left:50%;bottom:0;width:min(460px,100%);
+    transform:translate(-50%,110%);transition:transform .25s cubic-bezier(.2,.8,.2,1);
+    background:var(--mantle);border:1px solid var(--surface0);border-bottom:none;
+    border-radius:18px 18px 0 0;box-shadow:0 -8px 30px rgba(0,0,0,.5);
+    padding:.9rem 1rem calc(1rem + env(safe-area-inset-bottom))}
+  .sheet.open{transform:translate(-50%,0)}
+  .sheet .grab{width:38px;height:4px;border-radius:2px;background:var(--surface2);margin:0 auto .8rem}
+  .sheet h3{font-size:.95rem;font-weight:700;line-height:1.3}
+  .sheet .sub{font-family:var(--mono);font-size:.72rem;color:var(--subtext);margin:.2rem 0 .4rem}
+  .sheet .lang{font-family:var(--mono);font-size:.68rem;color:var(--overlay);
+    text-transform:uppercase;letter-spacing:.06em;margin:.8rem 0 .35rem}
+  .cmrow{display:grid;grid-template-columns:repeat(3,1fr);gap:.45rem}
+  .cmrow a{display:block;text-align:center;text-decoration:none;padding:.6rem .3rem;
+    border-radius:10px;background:var(--surface0);color:var(--text);
+    font-family:var(--mono);font-size:.8rem;font-weight:600}
+  .cmrow a:active{background:var(--surface1)}
+  .cmrow a small{display:block;font-family:var(--sans);font-size:.62rem;
+    font-weight:400;color:var(--subtext);margin-top:.15rem}
+  .sheet .plain{display:block;text-align:center;text-decoration:none;margin-top:.9rem;
+    padding:.55rem;border-radius:10px;border:1px solid var(--surface0);
+    color:var(--subtext);font-size:.74rem}
+  .sheet .note{font-size:.68rem;color:var(--overlay);text-align:center;
+    margin-top:.7rem;line-height:1.45}
+
   /* ---- responsive: la sidebar diventa un drawer a scomparsa ---- */
   @media(max-width:900px){
     .topbar{display:flex;align-items:center;gap:.8rem;position:sticky;top:0;z-index:40;
@@ -300,10 +337,21 @@ HTML = r'''<!DOCTYPE html>
   <main id="main"></main>
 </div>
 <div class="toast" id="toast"></div>
+<div class="sheet-bd" id="sheetBd"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+  <div class="grab"></div>
+  <h3 id="sheetTitle"></h3>
+  <div class="sub" id="sheetSub"></div>
+  <div id="sheetBody"></div>
+</section>
 <script>
 const CARDS = __DATA__;
 const SETNAMES = __SETS__;   // { CODICE: [nome inglese, nome italiano] }
 const STORAGE_KEY = 'fullart-trainer-en';
+// Cardmarket: id della lingua della carta e della condizione minima, come li
+// vuole la pagina prodotto (?language=..&minCondition=..).
+const CM_LANGS = [['Italiano',5],['Inglese',1]];
+const CM_CONDS = [['NM',2,'Near Mint'],['EX',3,'Excellent'],['GD',4,'Good']];
 let owned=new Set(), filter='all', setFilter='', query='', qterms=[], orderAsc=false;
 // Confronto tollerante: minuscole, senza accenti e senza punteggiatura,
 // cosi' "tranquillita di az" trova "Tranquillità di AZ".
@@ -345,11 +393,12 @@ function render(){ const vis=CARDS.filter(matches); main.innerHTML='';
     for(const c of g[s]){ const el=document.createElement('div'); el.className='card'+(owned.has(c.id)?' owned':'');
       // tooltip: nome italiano, con l'inglese di seguito quando differisce
       const nm=cardName(c), alt=nm||c.id;
-      el.title=(nm?nm+(c.ni&&c.ne?' / '+c.ne:'')+' — ':'')+c.s+' #'+c.n;
+      el.title=(nm?nm+(c.ni&&c.ne?' / '+c.ne:'')+' — ':'')+c.s+' #'+c.n+
+        (c.cm?'  ·  tieni premuto per i prezzi':'');
       el.innerHTML='<div class="check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>'+
         '<img loading="lazy" referrerpolicy="no-referrer" src="'+c.img+'" alt="'+esc(alt)+'" onerror="this.style.opacity=.15;this.alt=\'img n/d\'">'+
         '<div class="tag">'+c.s+' · '+c.n+'</div>';
-      el.addEventListener('click',()=>toggle(c.id,el)); grid.appendChild(el); }
+      bindCard(el,c); grid.appendChild(el); }
     sec.appendChild(grid); main.appendChild(sec); } }
 function updateStats(){ const n=owned.size,t=CARDS.length,p=t?Math.round(n/t*100):0;
   document.getElementById('ownedN').textContent=n; document.getElementById('totalN').textContent=t;
@@ -357,6 +406,51 @@ function updateStats(){ const n=owned.size,t=CARDS.length,p=t?Math.round(n/t*100
   const pt=document.getElementById('pctTop'); if(pt) pt.textContent=p+'%'; }
 function toggle(id,el){ if(owned.has(id)){owned.delete(id);el.classList.remove('owned');}else{owned.add(id);el.classList.add('owned');}
   updateStats(); saveOwned(); if(filter!=='all') setTimeout(render,180); }
+// ---- scheda prezzi Cardmarket -------------------------------------------
+const sheetEl=document.getElementById('sheet'), sheetBd=document.getElementById('sheetBd');
+let sheetCard=null;
+function openSheet(c){
+  if(!c.cm){ toast('Link Cardmarket non disponibile'); return; }
+  sheetCard=c;
+  const nm=cardName(c);
+  document.getElementById('sheetTitle').textContent=nm||c.id;
+  document.getElementById('sheetSub').textContent=c.s+' · '+c.n+(setLabel(c.s)?' · '+setLabel(c.s):'');
+  let h='';
+  for(const [lname,lid] of CM_LANGS){
+    h+='<div class="lang">'+lname+'</div><div class="cmrow">';
+    for(const [code,cid,full] of CM_CONDS)
+      h+='<a href="'+c.cm+'?language='+lid+'&minCondition='+cid+'" target="_blank" rel="noopener">'+
+         code+'<small>'+full+'</small></a>';
+    h+='</div>';
+  }
+  h+='<a class="plain" href="'+c.cm+'" target="_blank" rel="noopener">Tutte le offerte</a>'+
+     '<div class="note">Ogni voce apre Cardmarket già filtrato per lingua e condizione minima: '+
+     'la prima offerta è il prezzo più basso.</div>';
+  document.getElementById('sheetBody').innerHTML=h;
+  sheetEl.classList.add('open'); sheetBd.classList.add('open');
+}
+function closeSheet(){ sheetEl.classList.remove('open'); sheetBd.classList.remove('open'); sheetCard=null; }
+sheetBd.addEventListener('click',closeSheet);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeSheet(); });
+// Tap = possiedo/non possiedo, pressione prolungata (500ms) = scheda prezzi.
+// Il movimento oltre 10px annulla, cosi' lo scorrimento della pagina resta libero.
+function bindCard(el,c){
+  let timer=null, sx=0, sy=0, opened=false;
+  const cancel=()=>{ clearTimeout(timer); timer=null; };
+  el.addEventListener('pointerdown',e=>{ if(e.button)return;
+    opened=false; sx=e.clientX; sy=e.clientY;
+    timer=setTimeout(()=>{ opened=true; openSheet(c);
+      if(navigator.vibrate) navigator.vibrate(15); },500); });
+  el.addEventListener('pointermove',e=>{
+    if(timer&&(Math.abs(e.clientX-sx)>10||Math.abs(e.clientY-sy)>10)) cancel(); });
+  el.addEventListener('pointerup',cancel);
+  el.addEventListener('pointercancel',()=>{ cancel(); opened=false; });
+  el.addEventListener('click',e=>{
+    if(opened){ e.preventDefault(); opened=false; return; }   // era una pressione lunga
+    toggle(c.id,el); });
+  // tasto destro sul desktop, menu contestuale sul telefono: stessa scheda
+  el.addEventListener('contextmenu',e=>{ e.preventDefault(); if(sheetCard!==c) openSheet(c); });
+}
 function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1600); }
 document.getElementById('filterSeg').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b)return;
   document.querySelectorAll('#filterSeg button').forEach(x=>x.classList.remove('active')); b.classList.add('active'); filter=b.dataset.f; render(); });
