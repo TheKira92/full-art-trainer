@@ -22,15 +22,15 @@ rigenerarli da zero, cancellali prima di rilanciare lo script.
 import csv, json, os, re, sys
 from pathlib import Path
 
-# Ordine cronologico dei set inglesi (recente -> vecchio), da limitlesstcg.com/cards
-CHRONO_EN = ["CRI","POR","ASC","PFL","MEG","MEE","MEP","BLK","WHT","DRI","JTG","PRE",
-"SSP","SCR","SFA","TWM","TEF","PAF","PAR","MEW","OBF","PAL","SVI","SVE","SVP",
-"CRZ","SIT","LOR","PGO","ASR","BRS","FST","CEL","EVS","CRE","BST","SHF","VIV",
-"CPA","DAA","RCL","SSH","SP","CEC","HIF","UNM","UNB","DET","TEU","LOT","DRM",
-"CES","FLI","UPR","CIN","SLG","BUS","GRI","SUM","SMP","EVO","STS","FCO","GEN",
-"BKP","BKT","AOR","ROS","DCR","PRC","PHF","FFI","FLF","XY","KSS","XYP","LTR",
-"PLB","PLF","PLS","BCR","DRV","NVI"]
-rank = {c:i for i,c in enumerate(CHRONO_EN)}
+# Ordine cronologico dei set: NON serve piu' mantenerlo a mano. Limitless
+# restituisce le carte dal set piu' recente al piu' vecchio, quindi l'ordine
+# in cui i set compaiono nel CSV e' gia' quello cronologico (recente -> vecchio)
+# e `rank` viene dedotto piu' sotto dopo aver letto il CSV. Cosi' una nuova
+# espansione si posiziona in testa da sola, senza toccare questo file.
+# CHRONO_OVERRIDE: elenco opzionale per forzare a mano l'ordine di alcuni set
+# (i set elencati vengono messi per primi in quest'ordine; tutti gli altri
+# seguono nell'ordine del CSV). Lasciare vuoto per usare solo l'ordine del CSV.
+CHRONO_OVERRIDE = []
 
 csv_path = sys.argv[1] if len(sys.argv) > 1 else "fullart.csv"
 out_path = sys.argv[2] if len(sys.argv) > 2 else "docs/index.html"
@@ -52,19 +52,55 @@ for r in rows:
 if skipped:
     print(f"Ignorate {skipped} righe non inglesi.", file=sys.stderr)
 
-cards = [{"id": f"{r['set']}-{r['numero']}", "s": r["set"], "n": r["numero"],
-          "img": r["url_immagine"]} for r in kept]
+# Nomi carte/espansioni in inglese e italiano (cache di fetch_names.py).
+# Se il file manca il tracker funziona lo stesso, solo senza ricerca per nome.
+NAMES_FILE = "fullart_names.json"
+try:
+    with open(NAMES_FILE, encoding="utf-8") as f:
+        names = json.load(f)
+except (FileNotFoundError, ValueError):
+    names = {"cards": {}, "sets": {}}
+    print(f"Nota: '{NAMES_FILE}' assente -> nessuna ricerca per nome. "
+          f"Lancia fetch_names.py per generarlo.", file=sys.stderr)
+card_names, set_names = names.get("cards", {}), names.get("sets", {})
+
+cards = []
+for r in kept:
+    cid = f"{r['set']}-{r['numero']}"
+    nm = card_names.get(cid, {})
+    c = {"id": cid, "s": r["set"], "n": r["numero"], "img": r["url_immagine"]}
+    # ne/ni: nome inglese/italiano. Omessi se mancanti, per non gonfiare l'HTML.
+    if nm.get("en"):
+        c["ne"] = nm["en"]
+    if nm.get("it") and nm["it"] != nm.get("en"):
+        c["ni"] = nm["it"]
+    cards.append(c)
+
+senza_nome = sum(1 for c in cards if "ne" not in c and "ni" not in c)
+if senza_nome:
+    print(f"Carte senza nome in cache: {senza_nome} (rilancia fetch_names.py).",
+          file=sys.stderr)
 
 def numkey(n):
     m = re.match(r"^(\d+)", n)
     return (0, int(m.group(1)), n) if m else (1, 0, n)
 
+# Ordine cronologico dedotto dal CSV: i set nell'ordine di prima comparsa
+# (Limitless li restituisce dal piu' recente al piu' vecchio). Gli eventuali
+# set in CHRONO_OVERRIDE vengono forzati per primi, in quell'ordine.
+csv_order = list(dict.fromkeys(c["s"] for c in cards))
+ordered_sets = CHRONO_OVERRIDE + [s for s in csv_order if s not in CHRONO_OVERRIDE]
+rank = {s: i for i, s in enumerate(ordered_sets)}
+
 cards.sort(key=lambda c: (rank.get(c["s"], 9999), numkey(c["n"])))
-unknown = sorted(set(c["s"] for c in cards if c["s"] not in rank))
-if unknown:
-    print(f"Set senza posizione cronologica (vanno in fondo): {unknown}", file=sys.stderr)
 
 data_js = json.dumps(cards, ensure_ascii=False, separators=(",", ":"))
+
+# Nomi espansione per i soli set presenti, es. {"PBL": ["Pitch Black", "Buio Pesto"]}
+sets_js = json.dumps(
+    {s: [set_names.get(s, {}).get("en", ""), set_names.get(s, {}).get("it", "")]
+     for s in dict.fromkeys(c["s"] for c in cards)},
+    ensure_ascii=False, separators=(",", ":"))
 
 # -- PWA: bump questa stringa per forzare un refresh del service worker -------
 PWA_VERSION = "v2"
@@ -157,6 +193,9 @@ HTML = r'''<!DOCTYPE html>
     border-bottom:1px solid var(--surface0)}
   .setcode{font-family:var(--mono);font-weight:700;font-size:1.02rem;color:var(--text);
     background:var(--surface0);padding:.2rem .6rem;border-radius:8px;letter-spacing:.02em}
+  .setcode,.setbadge{flex:none}
+  .setname{font-size:.9rem;font-weight:600;color:var(--subtext);min-width:0;overflow:hidden;
+    text-overflow:ellipsis;white-space:nowrap}
   .setbadge{font-family:var(--mono);font-size:.76rem;color:var(--subtext);background:var(--mantle);
     border:1px solid var(--surface0);padding:.18rem .6rem;border-radius:999px}
   .setbadge.done{color:var(--crust);background:var(--green);border-color:var(--green)}
@@ -241,7 +280,7 @@ HTML = r'''<!DOCTYPE html>
         <div class="flabel">Cerca</div>
         <div class="search-wrap">
           <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <input type="search" id="search" placeholder="Set o numero…">
+          <input type="search" id="search" placeholder="Nome (IT/EN), set o numero…">
         </div>
       </div>
       <div>
@@ -263,8 +302,22 @@ HTML = r'''<!DOCTYPE html>
 <div class="toast" id="toast"></div>
 <script>
 const CARDS = __DATA__;
+const SETNAMES = __SETS__;   // { CODICE: [nome inglese, nome italiano] }
 const STORAGE_KEY = 'fullart-trainer-en';
-let owned=new Set(), filter='all', setFilter='', query='', orderAsc=false;
+let owned=new Set(), filter='all', setFilter='', query='', qterms=[], orderAsc=false;
+// Confronto tollerante: minuscole, senza accenti e senza punteggiatura,
+// cosi' "tranquillita di az" trova "Tranquillità di AZ".
+function norm(s){ return (s||'').toLowerCase().normalize('NFD')
+  .replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim(); }
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;')
+  .replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function setLabel(s){ const p=SETNAMES[s]||[]; return p[1]||p[0]||''; }
+function cardName(c){ return c.ni||c.ne||''; }
+// Testo su cui cerca la barra di ricerca: nomi IT+EN, codice set,
+// nome espansione IT+EN, numero e la forma "SET numero".
+function haystack(c){ if(c._h===undefined){ const p=SETNAMES[c.s]||[];
+    c._h=norm([c.ne,c.ni,c.s,p[0],p[1],c.n,c.s+' '+c.n].filter(Boolean).join(' ')); }
+  return c._h; }
 function loadOwned(){ try{ const ls=localStorage.getItem(STORAGE_KEY); if(ls) owned=new Set(JSON.parse(ls)); }catch(e){} }
 let saveTimer=null;
 function saveOwned(){ clearTimeout(saveTimer); saveTimer=setTimeout(()=>{ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify([...owned])); }catch(e){} },200); }
@@ -275,7 +328,9 @@ function populateSetSelect(){ const sel=document.getElementById('setSel'),cnt={}
   for(const s of setsOrdered()){ const o=document.createElement('option'); o.value=s; o.textContent=s+' ('+cnt[s]+')'; sel.appendChild(o); } }
 function matches(c){ if(setFilter&&c.s!==setFilter)return false;
   if(filter==='owned'&&!owned.has(c.id))return false; if(filter==='missing'&&owned.has(c.id))return false;
-  if(query){ const q=query.toLowerCase(); if(!(c.s.toLowerCase().includes(q)||c.n.toLowerCase().includes(q)))return false; } return true; }
+  // piu' parole = tutte devono comparire, in qualsiasi ordine ("gwynn pbl")
+  if(qterms.length){ const h=haystack(c); for(const t of qterms) if(!h.includes(t)) return false; }
+  return true; }
 function render(){ const vis=CARDS.filter(matches); main.innerHTML='';
   if(!vis.length){ main.innerHTML='<div class="empty">Nessuna carta con questi filtri.</div>'; return; }
   const g={}; for(const c of vis)(g[c.s]=g[c.s]||[]).push(c);
@@ -283,11 +338,16 @@ function render(){ const vis=CARDS.filter(matches); main.innerHTML='';
   for(const s of order){ if(!g[s])continue;
     const oin=CARDS.filter(c=>c.s===s&&owned.has(c.id)).length, tin=CARDS.filter(c=>c.s===s).length, done=oin===tin;
     const sec=document.createElement('section'); sec.className='setgroup';
-    sec.innerHTML='<div class="sethead"><span class="setcode">'+s+'</span><span class="setbadge '+(done?'done':'')+'">'+oin+'/'+tin+(done?' ✓':'')+'</span></div>';
+    sec.innerHTML='<div class="sethead"><span class="setcode">'+s+'</span>'+
+      (setLabel(s)?'<span class="setname">'+esc(setLabel(s))+'</span>':'')+
+      '<span class="setbadge '+(done?'done':'')+'">'+oin+'/'+tin+(done?' ✓':'')+'</span></div>';
     const grid=document.createElement('div'); grid.className='grid';
     for(const c of g[s]){ const el=document.createElement('div'); el.className='card'+(owned.has(c.id)?' owned':'');
+      // tooltip: nome italiano, con l'inglese di seguito quando differisce
+      const nm=cardName(c), alt=nm||c.id;
+      el.title=(nm?nm+(c.ni&&c.ne?' / '+c.ne:'')+' — ':'')+c.s+' #'+c.n;
       el.innerHTML='<div class="check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>'+
-        '<img loading="lazy" referrerpolicy="no-referrer" src="'+c.img+'" alt="'+c.id+'" onerror="this.style.opacity=.15;this.alt=\'img n/d\'">'+
+        '<img loading="lazy" referrerpolicy="no-referrer" src="'+c.img+'" alt="'+esc(alt)+'" onerror="this.style.opacity=.15;this.alt=\'img n/d\'">'+
         '<div class="tag">'+c.s+' · '+c.n+'</div>';
       el.addEventListener('click',()=>toggle(c.id,el)); grid.appendChild(el); }
     sec.appendChild(grid); main.appendChild(sec); } }
@@ -301,7 +361,8 @@ function toast(m){ const t=document.getElementById('toast'); t.textContent=m; t.
 document.getElementById('filterSeg').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b)return;
   document.querySelectorAll('#filterSeg button').forEach(x=>x.classList.remove('active')); b.classList.add('active'); filter=b.dataset.f; render(); });
 document.getElementById('setSel').addEventListener('change',e=>{setFilter=e.target.value;render();});
-document.getElementById('search').addEventListener('input',e=>{query=e.target.value.trim();render();});
+document.getElementById('search').addEventListener('input',e=>{query=e.target.value.trim();
+  qterms=norm(query).split(' ').filter(Boolean); render();});
 document.getElementById('resetBtn').addEventListener('click',()=>{ if(!owned.size){toast('Niente da azzerare');return;}
   if(confirm('Azzerare le '+owned.size+' carte segnate?')){owned.clear();updateStats();saveOwned();render();toast('Azzerato');} });
 document.getElementById('exportBtn').addEventListener('click',()=>{ const d={owned:[...owned],totale:CARDS.length,aggiornato:new Date().toISOString()};
@@ -339,7 +400,7 @@ if('serviceWorker' in navigator){
 }
 </script></body></html>'''
 
-HTML = HTML.replace("__DATA__", data_js)
+HTML = HTML.replace("__DATA__", data_js).replace("__SETS__", sets_js)
 # crea la cartella di output se serve (es. `docs/index.html` per GitHub Pages)
 Path(out_path).resolve().parent.mkdir(parents=True, exist_ok=True)
 open(out_path, "w", encoding="utf-8").write(HTML)

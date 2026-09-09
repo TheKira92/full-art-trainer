@@ -1,0 +1,53 @@
+name: Aggiorna Full Art Trainer
+
+# Come lanciarlo dal telefono:
+#   app GitHub -> repo -> scheda "Actions" -> "Aggiorna Full Art Trainer"
+#   -> "Run workflow". Oppure parte da solo ogni lunedì mattina.
+on:
+  workflow_dispatch:            # bottone manuale (anche da telefono)
+  schedule:
+    - cron: '0 6 * * 1'        # ogni lunedì alle 06:00 UTC
+
+permissions:
+  contents: write               # serve per fare push del risultato
+
+concurrency:
+  group: update-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+
+      - name: Scarica carte Full Art (EN)
+        run: python limitless_fullart.py --type trainer --match art --lang en
+
+      - name: Scarica nomi carte EN + IT
+        run: python fetch_names.py
+
+      - name: Rigenera il tracker
+        run: python gen_tracker.py
+
+      - name: Commit e push se ci sono novità
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fullart.csv fullart_names.json docs/index.html
+          if git diff --cached --quiet; then
+            echo "Nessuna novità: niente da aggiornare."
+          else
+            git commit -m "Aggiornamento automatico Full Art Trainer"
+            git push
+            echo "Aggiornato e pubblicato."
+          fi

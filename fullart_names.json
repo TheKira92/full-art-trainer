@@ -1,0 +1,2230 @@
+{
+ "cards": {
+  "AOR-75a": {
+   "en": "Hex Maniac",
+   "it": "Streghetta"
+  },
+  "AOR-95": {
+   "en": "Steven",
+   "it": "Rocco"
+  },
+  "ASC-254": {
+   "en": "Anthea & Concordia",
+   "it": "Antea e Concordia"
+  },
+  "ASC-255": {
+   "en": "Black Belt's Training",
+   "it": "Allenamento di Cinturanera"
+  },
+  "ASC-256": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "ASC-257": {
+   "en": "Canari",
+   "it": "Canary"
+  },
+  "ASC-258": {
+   "en": "Cheren",
+   "it": "Komor"
+  },
+  "ASC-259": {
+   "en": "Counter Gain",
+   "it": "Contrappeso"
+  },
+  "ASC-260": {
+   "en": "Glass Trumpet",
+   "it": "Tromba di Vetro"
+  },
+  "ASC-261": {
+   "en": "Jamming Tower",
+   "it": "Torre di Interferenza"
+  },
+  "ASC-262": {
+   "en": "N's PP Up",
+   "it": "PP-su di N"
+  },
+  "ASC-263": {
+   "en": "Team Rocket's Transceiver",
+   "it": "Ricetrasmettitore del Team Rocket"
+  },
+  "ASC-264": {
+   "en": "Ultra Ball",
+   "it": "Ultra Ball"
+  },
+  "ASC-291": {
+   "en": "Canari",
+   "it": "Canary"
+  },
+  "ASC-292": {
+   "en": "Iris's Fighting Spirit",
+   "it": "Spirito Combattivo di Iris"
+  },
+  "ASC-293": {
+   "en": "Surfer",
+   "it": "Surfista"
+  },
+  "ASR-181": {
+   "en": "Adaman",
+   "it": "Damon"
+  },
+  "ASR-182": {
+   "en": "Choy",
+   "it": "Choi"
+  },
+  "ASR-183": {
+   "en": "Cyllene",
+   "it": "Selina"
+  },
+  "ASR-184": {
+   "en": "Gardenia's Vigor",
+   "it": "Vigore di Gardenia"
+  },
+  "ASR-185": {
+   "en": "Grant",
+   "it": "Lino"
+  },
+  "ASR-186": {
+   "en": "Irida",
+   "it": "Perula"
+  },
+  "ASR-187": {
+   "en": "Kamado",
+   "it": "Soruan"
+  },
+  "ASR-188": {
+   "en": "Roxanne",
+   "it": "Petra"
+  },
+  "ASR-189": {
+   "en": "Zisu",
+   "it": "Lapilla"
+  },
+  "ASR-TG24": {
+   "en": "Allister",
+   "it": "Onion"
+  },
+  "ASR-TG25": {
+   "en": "Bea",
+   "it": "Fabia"
+  },
+  "ASR-TG26": {
+   "en": "Melony",
+   "it": "Melania"
+  },
+  "ASR-TG27": {
+   "en": "Milo",
+   "it": "Yarrow"
+  },
+  "ASR-TG28": {
+   "en": "Piers",
+   "it": "Ginepro"
+  },
+  "BCR-147": {
+   "en": "Bianca",
+   "it": "Belle"
+  },
+  "BCR-148": {
+   "en": "Cheren",
+   "it": "Komor"
+  },
+  "BCR-149": {
+   "en": "Skyla",
+   "it": "Anemone"
+  },
+  "BKP-122": {
+   "en": "Skyla",
+   "it": "Anemone"
+  },
+  "BKP-98b": {
+   "en": "Delinquent",
+   "it": "Tipaccia"
+  },
+  "BKT-161": {
+   "en": "Brigette",
+   "it": "Colette"
+  },
+  "BKT-162": {
+   "en": "Giovanni's Scheme",
+   "it": "Piano di Giovanni"
+  },
+  "BLK-162": {
+   "en": "Fennel",
+   "it": "Zania"
+  },
+  "BLK-163": {
+   "en": "N's Plan",
+   "it": "Piano di N"
+  },
+  "BLK-170": {
+   "en": "N's Plan",
+   "it": "Piano di N"
+  },
+  "BRS-167": {
+   "en": "Barry",
+   "it": "Barry"
+  },
+  "BRS-168": {
+   "en": "Cheren's Care",
+   "it": "Premura di Komor"
+  },
+  "BRS-169": {
+   "en": "Cynthia's Ambition",
+   "it": "Ambizione di Camilla"
+  },
+  "BRS-170": {
+   "en": "Kindler",
+   "it": "Brandifuoco"
+  },
+  "BRS-171": {
+   "en": "Marnie's Pride",
+   "it": "Orgoglio di Mary"
+  },
+  "BRS-172": {
+   "en": "Roseanne's Backup",
+   "it": "Backup di Rosabella"
+  },
+  "BRS-TG24": {
+   "en": "Acerola's Premonition",
+   "it": "Premonizione di Malpi"
+  },
+  "BRS-TG25": {
+   "en": "Café Master",
+   "it": "Barista"
+  },
+  "BRS-TG26": {
+   "en": "Gloria",
+   "it": "Gloria"
+  },
+  "BRS-TG27": {
+   "en": "Rapid Strike Style Mustard",
+   "it": "Mustard Stile Pluricolpo"
+  },
+  "BRS-TG28": {
+   "en": "Single Strike Style Mustard",
+   "it": "Mustard Stile Singolcolpo"
+  },
+  "BST-158": {
+   "en": "Bruno",
+   "it": "Bruno"
+  },
+  "BST-159": {
+   "en": "Cheryl",
+   "it": "Demetra"
+  },
+  "BST-160": {
+   "en": "Korrina's Focus",
+   "it": "Impegno di Ornella"
+  },
+  "BST-161": {
+   "en": "Phoebe",
+   "it": "Ester"
+  },
+  "BST-162": {
+   "en": "Rapid Strike Style Mustard",
+   "it": "Mustard Stile Pluricolpo"
+  },
+  "BST-163": {
+   "en": "Single Strike Style Mustard",
+   "it": "Mustard Stile Singolcolpo"
+  },
+  "BUS-142": {
+   "en": "Acerola",
+   "it": "Malpi"
+  },
+  "BUS-143": {
+   "en": "Guzma",
+   "it": "Guzman"
+  },
+  "BUS-144": {
+   "en": "Kiawe",
+   "it": "Kawe"
+  },
+  "BUS-145": {
+   "en": "Plumeria",
+   "it": "Plumeria"
+  },
+  "BUS-146": {
+   "en": "Sophocles",
+   "it": "Chrys"
+  },
+  "BUS-147": {
+   "en": "Wicke",
+   "it": "Ciceria"
+  },
+  "CEC-228": {
+   "en": "Cynthia & Caitlin",
+   "it": "Camilla e Catlina"
+  },
+  "CEC-229": {
+   "en": "Guzma & Hala",
+   "it": "Guzman e Hala"
+  },
+  "CEC-230": {
+   "en": "Lillie's Full Force",
+   "it": "Lylia alla Massima Potenza"
+  },
+  "CEC-231": {
+   "en": "Mallow & Lana",
+   "it": "Ibis e Suiren"
+  },
+  "CEC-232": {
+   "en": "N's Resolve",
+   "it": "Grinta di N"
+  },
+  "CEC-233": {
+   "en": "Professor Oak's Setup",
+   "it": "Allestimento del Professor Oak"
+  },
+  "CEC-234": {
+   "en": "Red & Blue",
+   "it": "Rosso e Blu"
+  },
+  "CEC-235": {
+   "en": "Roller Skater",
+   "it": "Pattinatrice"
+  },
+  "CEC-236": {
+   "en": "Rosa",
+   "it": "Rina"
+  },
+  "CEL-24": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "CES-161": {
+   "en": "Apricorn Maker",
+   "it": "Costruttore di Apricorn"
+  },
+  "CES-162": {
+   "en": "Bill's Maintenance",
+   "it": "Sostegno di Bill"
+  },
+  "CES-163": {
+   "en": "Copycat",
+   "it": "Copiona"
+  },
+  "CES-164": {
+   "en": "Lisia",
+   "it": "Orthilla"
+  },
+  "CES-165": {
+   "en": "Steven's Resolve",
+   "it": "Grinta di Rocco"
+  },
+  "CES-166": {
+   "en": "Tate & Liza",
+   "it": "Tell e Pat"
+  },
+  "CES-167": {
+   "en": "TV Reporter",
+   "it": "Reporter Televisivo"
+  },
+  "CES-168": {
+   "en": "Underground Expedition",
+   "it": "Spedizione Sotterranea"
+  },
+  "CIN-109": {
+   "en": "Gladion",
+   "it": "Iridio"
+  },
+  "CIN-110": {
+   "en": "Lusamine",
+   "it": "Samina"
+  },
+  "CIN-111": {
+   "en": "Olivia",
+   "it": "Alyxia"
+  },
+  "CPA-73": {
+   "en": "Hop",
+   "it": "Hop"
+  },
+  "CRE-186": {
+   "en": "Agatha",
+   "it": "Agatha"
+  },
+  "CRE-187": {
+   "en": "Avery",
+   "it": "Savory"
+  },
+  "CRE-188": {
+   "en": "Brawly",
+   "it": "Rudi"
+  },
+  "CRE-189": {
+   "en": "Caitlin",
+   "it": "Catlina"
+  },
+  "CRE-190": {
+   "en": "Doctor",
+   "it": "Medico"
+  },
+  "CRE-191": {
+   "en": "Flannery",
+   "it": "Fiammetta"
+  },
+  "CRE-192": {
+   "en": "Honey",
+   "it": "Tania"
+  },
+  "CRE-193": {
+   "en": "Karen's Conviction",
+   "it": "Fermezza di Karen"
+  },
+  "CRE-194": {
+   "en": "Klara",
+   "it": "Sofora"
+  },
+  "CRE-195": {
+   "en": "Melony",
+   "it": "Melania"
+  },
+  "CRE-196": {
+   "en": "Peonia",
+   "it": "Nia"
+  },
+  "CRE-197": {
+   "en": "Peony",
+   "it": "Peony"
+  },
+  "CRE-198": {
+   "en": "Siebold",
+   "it": "Narciso"
+  },
+  "CRI-106": {
+   "en": "AZ's Tranquility",
+   "it": "Tranquillità di AZ"
+  },
+  "CRI-107": {
+   "en": "Emma",
+   "it": "Matière"
+  },
+  "CRI-108": {
+   "en": "Energy Retrieval",
+   "it": "Recupero di Energia"
+  },
+  "CRI-109": {
+   "en": "Jumbo Ice Cream",
+   "it": "Gelato Gigante"
+  },
+  "CRI-110": {
+   "en": "Philippe",
+   "it": "Gypso"
+  },
+  "CRI-111": {
+   "en": "Prism Tower",
+   "it": "Torre Prisma"
+  },
+  "CRI-112": {
+   "en": "Roxie's Performance",
+   "it": "Performance di Velia"
+  },
+  "CRI-113": {
+   "en": "Special Red Card",
+   "it": "Cartelrosso Speciale"
+  },
+  "CRI-114": {
+   "en": "Surfing Beach",
+   "it": "Spiaggia dei Surfisti"
+  },
+  "CRI-115": {
+   "en": "Tool Scrapper",
+   "it": "Scartaoggetti"
+  },
+  "CRI-120": {
+   "en": "AZ's Tranquility",
+   "it": "Tranquillità di AZ"
+  },
+  "CRI-121": {
+   "en": "Roxie's Performance",
+   "it": "Performance di Velia"
+  },
+  "CRZ-147": {
+   "en": "Elesa's Sparkle",
+   "it": "Leggiadria di Camelia"
+  },
+  "CRZ-148": {
+   "en": "Friends in Hisui",
+   "it": "Amici a Hisui"
+  },
+  "CRZ-149": {
+   "en": "Friends in Sinnoh",
+   "it": "Amici a Sinnoh"
+  },
+  "CRZ-150": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "CRZ-151": {
+   "en": "Volo",
+   "it": "Ethelo"
+  },
+  "CRZ-GG57": {
+   "en": "Adaman",
+   "it": "Damon"
+  },
+  "CRZ-GG58": {
+   "en": "Cheren's Care",
+   "it": "Premura di Komor"
+  },
+  "CRZ-GG59": {
+   "en": "Colress's Experiment",
+   "it": "Esperimento di Acromio"
+  },
+  "CRZ-GG60": {
+   "en": "Cynthia's Ambition",
+   "it": "Ambizione di Camilla"
+  },
+  "CRZ-GG61": {
+   "en": "Gardenia's Vigor",
+   "it": "Vigore di Gardenia"
+  },
+  "CRZ-GG62": {
+   "en": "Grant",
+   "it": "Lino"
+  },
+  "CRZ-GG63": {
+   "en": "Irida",
+   "it": "Perula"
+  },
+  "CRZ-GG64": {
+   "en": "Melony",
+   "it": "Melania"
+  },
+  "CRZ-GG65": {
+   "en": "Raihan",
+   "it": "Laburno"
+  },
+  "CRZ-GG66": {
+   "en": "Roxanne",
+   "it": "Petra"
+  },
+  "DAA-186": {
+   "en": "Kabu",
+   "it": "Kabu"
+  },
+  "DAA-187": {
+   "en": "Piers",
+   "it": "Ginepro"
+  },
+  "DAA-188": {
+   "en": "Pokémon Breeder's Nurturing",
+   "it": "Premura dell'Allevapokémon"
+  },
+  "DAA-189": {
+   "en": "Rose",
+   "it": "Rose"
+  },
+  "DRI-220": {
+   "en": "Emcee's Hype",
+   "it": "Entusiasmo di Emcee"
+  },
+  "DRI-221": {
+   "en": "Ethan's Adventure",
+   "it": "Avventura di Armonio"
+  },
+  "DRI-222": {
+   "en": "Judge",
+   "it": "Arbitro"
+  },
+  "DRI-223": {
+   "en": "Team Rocket's Archer",
+   "it": "Archer del Team Rocket"
+  },
+  "DRI-224": {
+   "en": "Team Rocket's Ariana",
+   "it": "Atena del Team Rocket"
+  },
+  "DRI-225": {
+   "en": "Team Rocket's Giovanni",
+   "it": "Giovanni del Team Rocket"
+  },
+  "DRI-226": {
+   "en": "Team Rocket's Petrel",
+   "it": "Maxus del Team Rocket"
+  },
+  "DRI-227": {
+   "en": "Team Rocket's Proton",
+   "it": "Milas del Team Rocket"
+  },
+  "DRI-236": {
+   "en": "Ethan's Adventure",
+   "it": "Avventura di Armonio"
+  },
+  "DRI-237": {
+   "en": "Team Rocket's Ariana",
+   "it": "Atena del Team Rocket"
+  },
+  "DRI-238": {
+   "en": "Team Rocket's Giovanni",
+   "it": "Giovanni del Team Rocket"
+  },
+  "DRM-69": {
+   "en": "Blaine's Last Stand",
+   "it": "Ultimo Tentativo di Blaine"
+  },
+  "DRM-70": {
+   "en": "Zinnia",
+   "it": "Lyris"
+  },
+  "EVO-107": {
+   "en": "Brock's Grit",
+   "it": "Tenacia di Brock"
+  },
+  "EVO-108": {
+   "en": "Misty's Determination",
+   "it": "Determinazione di Misty"
+  },
+  "EVS-199": {
+   "en": "Aroma Lady",
+   "it": "Profumina"
+  },
+  "EVS-200": {
+   "en": "Copycat",
+   "it": "Copiona"
+  },
+  "EVS-201": {
+   "en": "Gordie",
+   "it": "Milo"
+  },
+  "EVS-202": {
+   "en": "Raihan",
+   "it": "Laburno"
+  },
+  "EVS-203": {
+   "en": "Zinnia's Resolve",
+   "it": "Grinta di Lyris"
+  },
+  "FCO-105a": {
+   "en": "N",
+   "it": "N"
+  },
+  "FCO-111a": {
+   "en": "Shauna",
+   "it": "Shana"
+  },
+  "FCO-124": {
+   "en": "Team Rocket's Handiwork",
+   "it": "Malefatte del Team Rocket"
+  },
+  "FFI-109": {
+   "en": "Battle Reporter",
+   "it": "Inviato Speciale"
+  },
+  "FFI-110": {
+   "en": "Fossil Researcher",
+   "it": "Ricercatore di Fossili"
+  },
+  "FFI-111": {
+   "en": "Korrina",
+   "it": "Ornella"
+  },
+  "FLF-104": {
+   "en": "Lysandre",
+   "it": "Elisio"
+  },
+  "FLF-105": {
+   "en": "Pokémon Center Lady",
+   "it": "Addetta del Centro Pokémon"
+  },
+  "FLF-106": {
+   "en": "Pokémon Fan Club",
+   "it": "Pokémon Fan Club"
+  },
+  "FLF-88a": {
+   "en": "Blacksmith",
+   "it": "Fabbro"
+  },
+  "FLI-128": {
+   "en": "Bonnie",
+   "it": "Clem"
+  },
+  "FLI-129": {
+   "en": "Crasher Wake",
+   "it": "Omar il Distruttore"
+  },
+  "FLI-130": {
+   "en": "Diantha",
+   "it": "Diantha"
+  },
+  "FLI-131": {
+   "en": "Ultra Recon Squad",
+   "it": "Ultrapattuglia"
+  },
+  "FST-258": {
+   "en": "Chili & Cilan & Cress",
+   "it": "Chicco, Spighetto e Maisello"
+  },
+  "FST-259": {
+   "en": "Dancer",
+   "it": "Ballerina"
+  },
+  "FST-260": {
+   "en": "Elesa's Sparkle",
+   "it": "Leggiadria di Camelia"
+  },
+  "FST-261": {
+   "en": "Schoolboy",
+   "it": "Studente"
+  },
+  "FST-262": {
+   "en": "Schoolgirl",
+   "it": "Studentessa"
+  },
+  "FST-263": {
+   "en": "Shauna",
+   "it": "Shana"
+  },
+  "FST-264": {
+   "en": "Sidney",
+   "it": "Fosco"
+  },
+  "GEN-73a": {
+   "en": "Team Flare Grunt",
+   "it": "Recluta del Team Flare"
+  },
+  "GRI-143": {
+   "en": "Hala",
+   "it": "Hala"
+  },
+  "GRI-144": {
+   "en": "Hau",
+   "it": "Hau"
+  },
+  "GRI-145": {
+   "en": "Mallow",
+   "it": "Ibis"
+  },
+  "HIF-67": {
+   "en": "Giovanni's Exile",
+   "it": "Esilio di Giovanni"
+  },
+  "HIF-68": {
+   "en": "Jessie & James",
+   "it": "Jessie e James"
+  },
+  "HIF-SV81": {
+   "en": "Aether Foundation Employee",
+   "it": "Dipendente della Fondazione Æther"
+  },
+  "HIF-SV82": {
+   "en": "Cynthia",
+   "it": "Camilla"
+  },
+  "HIF-SV83": {
+   "en": "Fisherman",
+   "it": "Pescatore"
+  },
+  "HIF-SV84": {
+   "en": "Guzma",
+   "it": "Guzman"
+  },
+  "HIF-SV85": {
+   "en": "Hiker",
+   "it": "Montanaro"
+  },
+  "HIF-SV86": {
+   "en": "Lady",
+   "it": "Lady"
+  },
+  "JTG-179": {
+   "en": "Brock's Scouting",
+   "it": "Ricerca di Brock"
+  },
+  "JTG-180": {
+   "en": "Iris's Fighting Spirit",
+   "it": "Spirito Combattivo di Iris"
+  },
+  "JTG-181": {
+   "en": "Ruffian",
+   "it": "Ragazzaccio"
+  },
+  "LOR-189": {
+   "en": "Arezu",
+   "it": "Maru"
+  },
+  "LOR-190": {
+   "en": "Colress's Experiment",
+   "it": "Esperimento di Acromio"
+  },
+  "LOR-191": {
+   "en": "Fantina",
+   "it": "Fannie"
+  },
+  "LOR-192": {
+   "en": "Iscan",
+   "it": "Sinen"
+  },
+  "LOR-193": {
+   "en": "Lady",
+   "it": "Lady"
+  },
+  "LOR-194": {
+   "en": "Miss Fortune Sisters",
+   "it": "Sorelle Florido"
+  },
+  "LOR-195": {
+   "en": "Thorton",
+   "it": "Spino"
+  },
+  "LOR-196": {
+   "en": "Volo",
+   "it": "Ethelo"
+  },
+  "LOR-TG23": {
+   "en": "Adventurer's Discovery",
+   "it": "Scoperta dell'Avventuriera"
+  },
+  "LOR-TG24": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "LOR-TG25": {
+   "en": "Cook",
+   "it": "Cuoco"
+  },
+  "LOR-TG26": {
+   "en": "Kabu",
+   "it": "Kabu"
+  },
+  "LOR-TG27": {
+   "en": "Nessa",
+   "it": "Azzurra"
+  },
+  "LOR-TG28": {
+   "en": "Opal",
+   "it": "Poppy"
+  },
+  "LOT-208": {
+   "en": "Faba",
+   "it": "Vicio"
+  },
+  "LOT-209": {
+   "en": "Judge",
+   "it": "Arbitro"
+  },
+  "LOT-210": {
+   "en": "Kahili",
+   "it": "Kahili"
+  },
+  "LOT-211": {
+   "en": "Mina",
+   "it": "Rika"
+  },
+  "LOT-212": {
+   "en": "Morty",
+   "it": "Angelo"
+  },
+  "LOT-213": {
+   "en": "Professor Elm's Lecture",
+   "it": "Seminario del Professor Elm"
+  },
+  "LOT-214": {
+   "en": "Whitney",
+   "it": "Chiara"
+  },
+  "MEG-165": {
+   "en": "Acerola's Mischief",
+   "it": "Birichinata di Malpi"
+  },
+  "MEG-166": {
+   "en": "Air Balloon",
+   "it": "Palloncino"
+  },
+  "MEG-167": {
+   "en": "Buddy-Buddy Poffin",
+   "it": "Poffin del Cuore"
+  },
+  "MEG-168": {
+   "en": "Fighting Gong",
+   "it": "Gong di Lotta"
+  },
+  "MEG-169": {
+   "en": "Lillie's Determination",
+   "it": "Determinazione di Lylia"
+  },
+  "MEG-170": {
+   "en": "Lt. Surge's Bargain",
+   "it": "Affare di Lt. Surge"
+  },
+  "MEG-171": {
+   "en": "Mega Signal",
+   "it": "Megasegnale"
+  },
+  "MEG-172": {
+   "en": "Mystery Garden",
+   "it": "Giardino dei Misteri"
+  },
+  "MEG-173": {
+   "en": "Night Stretcher",
+   "it": "Barella Notturna"
+  },
+  "MEG-174": {
+   "en": "Premium Power Pro",
+   "it": "Potenza Premium Pro"
+  },
+  "MEG-175": {
+   "en": "Rare Candy",
+   "it": "Caramella rara"
+  },
+  "MEG-176": {
+   "en": "Wally's Compassion",
+   "it": "Compassione di Lino"
+  },
+  "MEG-183": {
+   "en": "Acerola's Mischief",
+   "it": "Birichinata di Malpi"
+  },
+  "MEG-184": {
+   "en": "Lillie's Determination",
+   "it": "Determinazione di Lylia"
+  },
+  "MEG-185": {
+   "en": "Lt. Surge's Bargain",
+   "it": "Affare di Lt. Surge"
+  },
+  "MEG-186": {
+   "en": "Wally's Compassion",
+   "it": "Compassione di Lino"
+  },
+  "MEW-194": {
+   "en": "Bill's Transfer",
+   "it": "Trasferimento di Bill"
+  },
+  "MEW-195": {
+   "en": "Daisy's Help",
+   "it": "Aiuto di Margi"
+  },
+  "MEW-196": {
+   "en": "Erika's Invitation",
+   "it": "Invito di Erika"
+  },
+  "MEW-197": {
+   "en": "Giovanni's Charisma",
+   "it": "Carisma di Giovanni"
+  },
+  "MEW-203": {
+   "en": "Erika's Invitation",
+   "it": "Invito di Erika"
+  },
+  "MEW-204": {
+   "en": "Giovanni's Charisma",
+   "it": "Carisma di Giovanni"
+  },
+  "NVI-101": {
+   "en": "N",
+   "it": "N"
+  },
+  "OBF-218": {
+   "en": "Geeta",
+   "it": "Alisma"
+  },
+  "OBF-219": {
+   "en": "Ortega",
+   "it": "Ortiz"
+  },
+  "OBF-220": {
+   "en": "Poppy",
+   "it": "Verina"
+  },
+  "OBF-221": {
+   "en": "Ryme",
+   "it": "Lima"
+  },
+  "OBF-226": {
+   "en": "Geeta",
+   "it": "Alisma"
+  },
+  "OBF-227": {
+   "en": "Poppy",
+   "it": "Verina"
+  },
+  "PAF-227": {
+   "en": "Clive",
+   "it": "Garoff"
+  },
+  "PAF-228": {
+   "en": "Judge",
+   "it": "Arbitro"
+  },
+  "PAF-229": {
+   "en": "Nemona",
+   "it": "Nemi"
+  },
+  "PAF-230": {
+   "en": "Paldean Student",
+   "it": "Studenti di Paldea"
+  },
+  "PAF-231": {
+   "en": "Paldean Student",
+   "it": "Studenti di Paldea"
+  },
+  "PAF-235": {
+   "en": "Arven",
+   "it": "Pepe"
+  },
+  "PAF-236": {
+   "en": "Clive",
+   "it": "Garoff"
+  },
+  "PAF-237": {
+   "en": "Iono",
+   "it": "Kissara"
+  },
+  "PAF-238": {
+   "en": "Nemona",
+   "it": "Nemi"
+  },
+  "PAF-239": {
+   "en": "Penny",
+   "it": "Penny"
+  },
+  "PAL-248": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "PAL-249": {
+   "en": "Clavell",
+   "it": "Clavel"
+  },
+  "PAL-250": {
+   "en": "Dendra",
+   "it": "Dendra"
+  },
+  "PAL-251": {
+   "en": "Falkner",
+   "it": "Valerio"
+  },
+  "PAL-252": {
+   "en": "Giacomo",
+   "it": "Romelio"
+  },
+  "PAL-253": {
+   "en": "Grusha",
+   "it": "Grusha"
+  },
+  "PAL-254": {
+   "en": "Iono",
+   "it": "Kissara"
+  },
+  "PAL-255": {
+   "en": "Saguaro",
+   "it": "Guaro"
+  },
+  "PAL-265": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "PAL-266": {
+   "en": "Dendra",
+   "it": "Dendra"
+  },
+  "PAL-267": {
+   "en": "Giacomo",
+   "it": "Romelio"
+  },
+  "PAL-268": {
+   "en": "Grusha",
+   "it": "Grusha"
+  },
+  "PAL-269": {
+   "en": "Iono",
+   "it": "Kissara"
+  },
+  "PAL-270": {
+   "en": "Saguaro",
+   "it": "Guaro"
+  },
+  "PAR-235": {
+   "en": "Larry",
+   "it": "Ubaldo"
+  },
+  "PAR-236": {
+   "en": "Mela",
+   "it": "Pruna"
+  },
+  "PAR-237": {
+   "en": "Norman",
+   "it": "Norman"
+  },
+  "PAR-238": {
+   "en": "Parasol Lady",
+   "it": "Ombrellina"
+  },
+  "PAR-239": {
+   "en": "Professor Sada's Vitality",
+   "it": "Vitalità della Professoressa Olim"
+  },
+  "PAR-240": {
+   "en": "Professor Turo's Scenario",
+   "it": "Scenario del Professor Turum"
+  },
+  "PAR-241": {
+   "en": "Rika",
+   "it": "Capsi"
+  },
+  "PAR-242": {
+   "en": "Roark",
+   "it": "Pedro"
+  },
+  "PAR-243": {
+   "en": "Shauntal",
+   "it": "Antemia"
+  },
+  "PAR-244": {
+   "en": "Tulip",
+   "it": "Tulipa"
+  },
+  "PAR-254": {
+   "en": "Mela",
+   "it": "Pruna"
+  },
+  "PAR-255": {
+   "en": "Parasol Lady",
+   "it": "Ombrellina"
+  },
+  "PAR-256": {
+   "en": "Professor Sada's Vitality",
+   "it": "Vitalità della Professoressa Olim"
+  },
+  "PAR-257": {
+   "en": "Professor Turo's Scenario",
+   "it": "Scenario del Professor Turum"
+  },
+  "PAR-258": {
+   "en": "Rika",
+   "it": "Capsi"
+  },
+  "PAR-259": {
+   "en": "Tulip",
+   "it": "Tulipa"
+  },
+  "PBL-104": {
+   "en": "Brave Bangle",
+   "it": "Braccialcoraggio"
+  },
+  "PBL-105": {
+   "en": "Crushing Hammer",
+   "it": "Martello Dirompente"
+  },
+  "PBL-106": {
+   "en": "Dark Bell",
+   "it": "Campanella Oscura"
+  },
+  "PBL-107": {
+   "en": "Energy Switch",
+   "it": "Scambio di Energia"
+  },
+  "PBL-108": {
+   "en": "Gladion's Final Battle",
+   "it": "Lotta Finale di Iridio"
+  },
+  "PBL-109": {
+   "en": "Gwynn",
+   "it": "Imma"
+  },
+  "PBL-110": {
+   "en": "Iron Defender",
+   "it": "Difensore Ferreo"
+  },
+  "PBL-111": {
+   "en": "Misty's Vitality",
+   "it": "Vitalità di Misty"
+  },
+  "PBL-112": {
+   "en": "Rust Syndicate Grunt",
+   "it": "Recluta del Clan Ruggine"
+  },
+  "PBL-113": {
+   "en": "Tremendous Bomb",
+   "it": "Bomba Assurda"
+  },
+  "PBL-118": {
+   "en": "Gladion's Final Battle",
+   "it": "Lotta Finale di Iridio"
+  },
+  "PBL-119": {
+   "en": "Gwynn",
+   "it": "Imma"
+  },
+  "PFL-116": {
+   "en": "Battle Cage",
+   "it": "Gabbia di Lotta"
+  },
+  "PFL-117": {
+   "en": "Blowtorch",
+   "it": "Fiamma Ossidrica"
+  },
+  "PFL-118": {
+   "en": "Dawn",
+   "it": "Lucinda"
+  },
+  "PFL-119": {
+   "en": "Firebreather",
+   "it": "Mangiafuoco"
+  },
+  "PFL-120": {
+   "en": "Grimsley's Move",
+   "it": "Mossa di Mirton"
+  },
+  "PFL-121": {
+   "en": "Punk Helmet",
+   "it": "Elmo Punk"
+  },
+  "PFL-122": {
+   "en": "Sacred Charm",
+   "it": "Amuleto Magico"
+  },
+  "PFL-123": {
+   "en": "Switch",
+   "it": "Scambio"
+  },
+  "PFL-129": {
+   "en": "Dawn",
+   "it": "Lucinda"
+  },
+  "PGO-78": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "PHF-117": {
+   "en": "AZ",
+   "it": "AZ"
+  },
+  "PHF-118": {
+   "en": "Lysandre's Trump Card",
+   "it": "Asso di Elisio"
+  },
+  "PHF-119": {
+   "en": "Xerosic",
+   "it": "Xante"
+  },
+  "PLB-101": {
+   "en": "Iris",
+   "it": "Iris"
+  },
+  "PLF-115": {
+   "en": "Ghetsis",
+   "it": "Ghecis"
+  },
+  "PLF-116": {
+   "en": "Professor Juniper",
+   "it": "Prof.ssa Aralia"
+  },
+  "PLS-135": {
+   "en": "Colress",
+   "it": "Acromio"
+  },
+  "POR-108": {
+   "en": "Energy Recycler",
+   "it": "Riciclaggio di Energia"
+  },
+  "POR-109": {
+   "en": "Forest of Vitality",
+   "it": "Bosco della Vitalità"
+  },
+  "POR-110": {
+   "en": "Jacinthe",
+   "it": "Viola"
+  },
+  "POR-111": {
+   "en": "Lumiose City",
+   "it": "Luminopoli"
+  },
+  "POR-112": {
+   "en": "Naveen",
+   "it": "Virgil"
+  },
+  "POR-113": {
+   "en": "Poké Pad",
+   "it": "Poké Pad"
+  },
+  "POR-114": {
+   "en": "Rosa's Encouragement",
+   "it": "Incoraggiamento di Rina"
+  },
+  "POR-115": {
+   "en": "Sacred Ash",
+   "it": "Cenere magica"
+  },
+  "POR-116": {
+   "en": "Tarragon",
+   "it": "Tarragon"
+  },
+  "POR-117": {
+   "en": "Wondrous Patch",
+   "it": "Distintivo Meraviglioso"
+  },
+  "POR-122": {
+   "en": "Jacinthe",
+   "it": "Viola"
+  },
+  "POR-123": {
+   "en": "Rosa's Encouragement",
+   "it": "Incoraggiamento di Rina"
+  },
+  "PRC-157": {
+   "en": "Archie's Ace in the Hole",
+   "it": "Asso nella Manica di Ivan"
+  },
+  "PRC-158": {
+   "en": "Maxie's Hidden Ball Trick",
+   "it": "Doppio Passo di Max"
+  },
+  "PRC-159": {
+   "en": "Professor Birch's Observations",
+   "it": "Parere del Professor Birch"
+  },
+  "PRC-160": {
+   "en": "Teammates",
+   "it": "Senior & Junior"
+  },
+  "PRE-132": {
+   "en": "Amarys",
+   "it": "Erin"
+  },
+  "PRE-133": {
+   "en": "Atticus",
+   "it": "Henzo"
+  },
+  "PRE-134": {
+   "en": "Atticus",
+   "it": "Henzo"
+  },
+  "PRE-135": {
+   "en": "Brassius",
+   "it": "Brassius"
+  },
+  "PRE-136": {
+   "en": "Eri",
+   "it": "Nespera"
+  },
+  "PRE-137": {
+   "en": "Friends in Paldea",
+   "it": "Amici a Paldea"
+  },
+  "PRE-138": {
+   "en": "Giacomo",
+   "it": "Romelio"
+  },
+  "PRE-139": {
+   "en": "Larry's Skill",
+   "it": "Competenza di Ubaldo"
+  },
+  "PRE-140": {
+   "en": "Mela",
+   "it": "Pruna"
+  },
+  "PRE-141": {
+   "en": "Ortega",
+   "it": "Ortiz"
+  },
+  "PRE-142": {
+   "en": "Raifort",
+   "it": "Morasia"
+  },
+  "PRE-143": {
+   "en": "Tyme",
+   "it": "Thyma"
+  },
+  "PRE-170": {
+   "en": "Amarys",
+   "it": "Erin"
+  },
+  "PRE-171": {
+   "en": "Crispin",
+   "it": "Piros"
+  },
+  "PRE-172": {
+   "en": "Drayton",
+   "it": "Aris"
+  },
+  "PRE-173": {
+   "en": "Janine's Secret Art",
+   "it": "Arte Segreta di Nina"
+  },
+  "PRE-174": {
+   "en": "Kieran",
+   "it": "Riben"
+  },
+  "PRE-175": {
+   "en": "Lacey",
+   "it": "Rupi"
+  },
+  "RCL-189": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "RCL-190": {
+   "en": "Milo",
+   "it": "Yarrow"
+  },
+  "RCL-191": {
+   "en": "Oleana",
+   "it": "Olive"
+  },
+  "RCL-192": {
+   "en": "Sonia",
+   "it": "Sonia"
+  },
+  "ROS-107": {
+   "en": "Wally",
+   "it": "Lino"
+  },
+  "ROS-108": {
+   "en": "Winona",
+   "it": "Alice"
+  },
+  "SCR-163": {
+   "en": "Briar",
+   "it": "Rea"
+  },
+  "SCR-164": {
+   "en": "Crispin",
+   "it": "Piros"
+  },
+  "SCR-165": {
+   "en": "Kofu",
+   "it": "Algaro"
+  },
+  "SCR-166": {
+   "en": "Lacey",
+   "it": "Rupi"
+  },
+  "SCR-171": {
+   "en": "Briar",
+   "it": "Rea"
+  },
+  "SCR-172": {
+   "en": "Lacey",
+   "it": "Rupi"
+  },
+  "SFA-86": {
+   "en": "Cassiopeia",
+   "it": "Cassiopea"
+  },
+  "SFA-87": {
+   "en": "Colress's Tenacity",
+   "it": "Perseveranza di Acromio"
+  },
+  "SFA-88": {
+   "en": "Janine's Secret Art",
+   "it": "Arte Segreta di Nina"
+  },
+  "SFA-89": {
+   "en": "Xerosic's Machinations",
+   "it": "Macchinazioni di Xante"
+  },
+  "SFA-94": {
+   "en": "Cassiopeia",
+   "it": "Cassiopea"
+  },
+  "SHF-65": {
+   "en": "Ball Guy",
+   "it": "Ballino"
+  },
+  "SHF-66": {
+   "en": "Bird Keeper",
+   "it": "Avicoltore"
+  },
+  "SHF-67": {
+   "en": "Cara Liss",
+   "it": "Fossilia Di Strattis"
+  },
+  "SHF-68": {
+   "en": "Gym Trainer",
+   "it": "Allenatore della Palestra"
+  },
+  "SHF-69": {
+   "en": "Piers",
+   "it": "Ginepro"
+  },
+  "SHF-70": {
+   "en": "Poké Kid",
+   "it": "Poké Bimbo"
+  },
+  "SHF-71": {
+   "en": "Rose",
+   "it": "Rose"
+  },
+  "SHF-72": {
+   "en": "Skyla",
+   "it": "Anemone"
+  },
+  "SIT-188": {
+   "en": "Brandon",
+   "it": "Baldo"
+  },
+  "SIT-189": {
+   "en": "Candice",
+   "it": "Bianca"
+  },
+  "SIT-190": {
+   "en": "Furisode Girl",
+   "it": "Ragazza in kimono"
+  },
+  "SIT-191": {
+   "en": "Gym Trainer",
+   "it": "Allenatore della Palestra"
+  },
+  "SIT-192": {
+   "en": "Lance",
+   "it": "Lance"
+  },
+  "SIT-193": {
+   "en": "Serena",
+   "it": "Serena"
+  },
+  "SIT-194": {
+   "en": "Wallace",
+   "it": "Adriano"
+  },
+  "SIT-195": {
+   "en": "Worker",
+   "it": "Lavoratrice"
+  },
+  "SIT-TG23": {
+   "en": "Friends in Galar",
+   "it": "Amici a Galar"
+  },
+  "SIT-TG24": {
+   "en": "Gordie",
+   "it": "Milo"
+  },
+  "SIT-TG25": {
+   "en": "Judge",
+   "it": "Arbitro"
+  },
+  "SIT-TG26": {
+   "en": "Professor Burnet",
+   "it": "Professoressa Magnolia"
+  },
+  "SIT-TG27": {
+   "en": "Raihan",
+   "it": "Laburno"
+  },
+  "SIT-TG28": {
+   "en": "Sordward & Shielbert",
+   "it": "Brandobaldo e Scudobaldo"
+  },
+  "SLG-73": {
+   "en": "Pokémon Breeder",
+   "it": "Allevapokémon"
+  },
+  "SP-121": {
+   "en": "Marnie",
+   "it": "Mary"
+  },
+  "SP-152": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "SP-226": {
+   "en": "Spark",
+   "it": "Spark"
+  },
+  "SP-227": {
+   "en": "Blanche",
+   "it": "Blanche"
+  },
+  "SP-228": {
+   "en": "Candela",
+   "it": "Candela"
+  },
+  "SP-251": {
+   "en": "Boss's Orders",
+   "it": "Ordini del Capo"
+  },
+  "SP-302": {
+   "en": "Klara",
+   "it": "Sofora"
+  },
+  "SSH-199": {
+   "en": "Bede",
+   "it": "Beet"
+  },
+  "SSH-200": {
+   "en": "Marnie",
+   "it": "Mary"
+  },
+  "SSH-201": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "SSH-202": {
+   "en": "Team Yell Grunt",
+   "it": "Recluta del Team Yell"
+  },
+  "SSP-229": {
+   "en": "Clemont's Quick Wit",
+   "it": "Arguzia di Lem"
+  },
+  "SSP-230": {
+   "en": "Cyrano",
+   "it": "Bluebert"
+  },
+  "SSP-231": {
+   "en": "Drasna",
+   "it": "Lilia"
+  },
+  "SSP-232": {
+   "en": "Drayton",
+   "it": "Aris"
+  },
+  "SSP-233": {
+   "en": "Jasmine's Gaze",
+   "it": "Sguardo di Jasmine"
+  },
+  "SSP-234": {
+   "en": "Lisia's Appeal",
+   "it": "Fascino di Orthilla"
+  },
+  "SSP-235": {
+   "en": "Surfer",
+   "it": "Surfista"
+  },
+  "SSP-243": {
+   "en": "Clemont's Quick Wit",
+   "it": "Arguzia di Lem"
+  },
+  "SSP-244": {
+   "en": "Drayton",
+   "it": "Aris"
+  },
+  "SSP-245": {
+   "en": "Jasmine's Gaze",
+   "it": "Sguardo di Jasmine"
+  },
+  "SSP-246": {
+   "en": "Lisia's Appeal",
+   "it": "Fascino di Orthilla"
+  },
+  "STS-113": {
+   "en": "Pokémon Ranger",
+   "it": "Pokémon Ranger"
+  },
+  "STS-114": {
+   "en": "Professor Sycamore",
+   "it": "Professor Platan"
+  },
+  "SUM-146": {
+   "en": "Ilima",
+   "it": "Liam"
+  },
+  "SUM-147": {
+   "en": "Lillie",
+   "it": "Lylia"
+  },
+  "SUM-148": {
+   "en": "Professor Kukui",
+   "it": "Professor Kukui"
+  },
+  "SUM-149": {
+   "en": "Team Skull Grunt",
+   "it": "Recluta del Team Skull"
+  },
+  "SVI-235": {
+   "en": "Arven",
+   "it": "Pepe"
+  },
+  "SVI-236": {
+   "en": "Jacq",
+   "it": "Zim"
+  },
+  "SVI-237": {
+   "en": "Katy",
+   "it": "Aceria"
+  },
+  "SVI-238": {
+   "en": "Miriam",
+   "it": "Mimosa"
+  },
+  "SVI-239": {
+   "en": "Penny",
+   "it": "Penny"
+  },
+  "SVI-240": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "SVI-241": {
+   "en": "Professor's Research",
+   "it": "Ricerca Accademica"
+  },
+  "SVI-242": {
+   "en": "Team Star Grunt",
+   "it": "Recluta del Team Star"
+  },
+  "SVI-249": {
+   "en": "Arven",
+   "it": "Pepe"
+  },
+  "SVI-250": {
+   "en": "Jacq",
+   "it": "Zim"
+  },
+  "SVI-251": {
+   "en": "Miriam",
+   "it": "Mimosa"
+  },
+  "SVI-252": {
+   "en": "Penny",
+   "it": "Penny"
+  },
+  "SVP-124": {
+   "en": "Iono",
+   "it": "Kissara"
+  },
+  "TEF-197": {
+   "en": "Bianca's Devotion",
+   "it": "Dedizione di Belle"
+  },
+  "TEF-198": {
+   "en": "Ciphermaniac's Codebreaking",
+   "it": "Decrittazione Esperta"
+  },
+  "TEF-199": {
+   "en": "Eri",
+   "it": "Nespera"
+  },
+  "TEF-200": {
+   "en": "Explorer's Guidance",
+   "it": "Guida dell'Esploratore"
+  },
+  "TEF-201": {
+   "en": "Morty's Conviction",
+   "it": "Fermezza di Angelo"
+  },
+  "TEF-202": {
+   "en": "Salvatore",
+   "it": "Salvis"
+  },
+  "TEF-209": {
+   "en": "Bianca's Devotion",
+   "it": "Dedizione di Belle"
+  },
+  "TEF-210": {
+   "en": "Eri",
+   "it": "Nespera"
+  },
+  "TEF-211": {
+   "en": "Morty's Conviction",
+   "it": "Fermezza di Angelo"
+  },
+  "TEF-212": {
+   "en": "Salvatore",
+   "it": "Salvis"
+  },
+  "TEU-172": {
+   "en": "Brock's Grit",
+   "it": "Tenacia di Brock"
+  },
+  "TEU-173": {
+   "en": "Dana",
+   "it": "Meridia"
+  },
+  "TEU-174": {
+   "en": "Erika's Hospitality",
+   "it": "Ospitalità di Erika"
+  },
+  "TEU-175": {
+   "en": "Evelyn",
+   "it": "Vespera"
+  },
+  "TEU-176": {
+   "en": "Ingo & Emmet",
+   "it": "Andy e Torn"
+  },
+  "TEU-177": {
+   "en": "Jasmine",
+   "it": "Jasmine"
+  },
+  "TEU-178": {
+   "en": "Morgan",
+   "it": "Aurora"
+  },
+  "TEU-179": {
+   "en": "Nanu",
+   "it": "Augusto"
+  },
+  "TEU-180": {
+   "en": "Nita",
+   "it": "Notturna"
+  },
+  "TEU-181": {
+   "en": "Sabrina's Suggestion",
+   "it": "Suggerimento di Sabrina"
+  },
+  "TWM-203": {
+   "en": "Caretaker",
+   "it": "Responsabile"
+  },
+  "TWM-204": {
+   "en": "Carmine",
+   "it": "Rubra"
+  },
+  "TWM-205": {
+   "en": "Hassel",
+   "it": "Oranzio"
+  },
+  "TWM-206": {
+   "en": "Kieran",
+   "it": "Riben"
+  },
+  "TWM-207": {
+   "en": "Lana's Aid",
+   "it": "Soccorso di Suiren"
+  },
+  "TWM-208": {
+   "en": "Lucian",
+   "it": "Luciano"
+  },
+  "TWM-209": {
+   "en": "Perrin",
+   "it": "Litha"
+  },
+  "TWM-217": {
+   "en": "Carmine",
+   "it": "Rubra"
+  },
+  "TWM-218": {
+   "en": "Kieran",
+   "it": "Riben"
+  },
+  "TWM-219": {
+   "en": "Lana's Aid",
+   "it": "Soccorso di Suiren"
+  },
+  "TWM-220": {
+   "en": "Perrin",
+   "it": "Litha"
+  },
+  "UNB-209": {
+   "en": "Green's Exploration",
+   "it": "Esplorazione di Verde"
+  },
+  "UNB-210": {
+   "en": "Janine",
+   "it": "Nina"
+  },
+  "UNB-211": {
+   "en": "Koga's Trap",
+   "it": "Trappola di Koga"
+  },
+  "UNB-212": {
+   "en": "Molayne",
+   "it": "Tapso"
+  },
+  "UNB-213": {
+   "en": "Red's Challenge",
+   "it": "Sfida di Rosso"
+  },
+  "UNB-214": {
+   "en": "Welder",
+   "it": "Saldatrice"
+  },
+  "UNM-231": {
+   "en": "Blue's Tactics",
+   "it": "Tattica di Blu"
+  },
+  "UNM-232": {
+   "en": "Channeler",
+   "it": "Medium"
+  },
+  "UNM-233": {
+   "en": "Coach Trainer",
+   "it": "Coach"
+  },
+  "UNM-234": {
+   "en": "Grimsley",
+   "it": "Mirton"
+  },
+  "UNM-235": {
+   "en": "Misty's Favor",
+   "it": "Cortesia di Misty"
+  },
+  "UNM-236": {
+   "en": "Poké Maniac",
+   "it": "Pokéfanatico"
+  },
+  "UPR-148": {
+   "en": "Cynthia",
+   "it": "Camilla"
+  },
+  "UPR-149": {
+   "en": "Gardenia",
+   "it": "Gardenia"
+  },
+  "UPR-150": {
+   "en": "Lana",
+   "it": "Suiren"
+  },
+  "UPR-151": {
+   "en": "Lillie",
+   "it": "Lylia"
+  },
+  "UPR-152": {
+   "en": "Looker",
+   "it": "Bellocchio"
+  },
+  "UPR-153": {
+   "en": "Lusamine",
+   "it": "Samina"
+  },
+  "UPR-154": {
+   "en": "Mars",
+   "it": "Martes"
+  },
+  "UPR-155": {
+   "en": "Pokémon Fan Club",
+   "it": "Pokémon Fan Club"
+  },
+  "UPR-156": {
+   "en": "Volkner",
+   "it": "Corrado"
+  },
+  "VIV-179": {
+   "en": "Allister",
+   "it": "Onion"
+  },
+  "VIV-180": {
+   "en": "Bea",
+   "it": "Fabia"
+  },
+  "VIV-181": {
+   "en": "Beauty",
+   "it": "Bellezza"
+  },
+  "VIV-182": {
+   "en": "Leon",
+   "it": "Dandel"
+  },
+  "VIV-183": {
+   "en": "Nessa",
+   "it": "Azzurra"
+  },
+  "VIV-184": {
+   "en": "Opal",
+   "it": "Poppy"
+  },
+  "VIV-185": {
+   "en": "Pokémon Center Lady",
+   "it": "Addetta del Centro Pokémon"
+  },
+  "WHT-163": {
+   "en": "Harlequin",
+   "it": "Buffone"
+  },
+  "WHT-164": {
+   "en": "Hilda",
+   "it": "Anita"
+  },
+  "WHT-171": {
+   "en": "Hilda",
+   "it": "Anita"
+  },
+  "XYP-177a": {
+   "en": "Karen",
+   "it": "Karen"
+  }
+ },
+ "sets": {
+  "AOR": {
+   "en": "Ancient Origins",
+   "it": "Antiche Origini"
+  },
+  "ASC": {
+   "en": "Ascended Heroes",
+   "it": "Ascesa Eroica"
+  },
+  "ASR": {
+   "en": "Astral Radiance",
+   "it": "Lucentezza Siderale"
+  },
+  "BCR": {
+   "en": "Boundaries Crossed",
+   "it": "Confini Varcati"
+  },
+  "BKP": {
+   "en": "BREAKpoint",
+   "it": "Turbocrash"
+  },
+  "BKT": {
+   "en": "BREAKthrough",
+   "it": "Turboblitz"
+  },
+  "BLK": {
+   "en": "Black Bolt",
+   "it": "Luce Nera"
+  },
+  "BRS": {
+   "en": "Brilliant Stars",
+   "it": "Astri Lucenti"
+  },
+  "BST": {
+   "en": "Battle Styles",
+   "it": "Stili di Lotta"
+  },
+  "BUS": {
+   "en": "Burning Shadows",
+   "it": "Ombre Infuocate"
+  },
+  "CEC": {
+   "en": "Cosmic Eclipse",
+   "it": "Eclissi Cosmica"
+  },
+  "CEL": {
+   "en": "Celebrations",
+   "it": "Gran Festa"
+  },
+  "CES": {
+   "en": "Celestial Storm",
+   "it": "Tempesta Astrale"
+  },
+  "CIN": {
+   "en": "Crimson Invasion",
+   "it": "Invasione Scarlatta"
+  },
+  "CPA": {
+   "en": "Champion's Path",
+   "it": "Futuri Campioni"
+  },
+  "CRE": {
+   "en": "Chilling Reign",
+   "it": "Regno Glaciale"
+  },
+  "CRI": {
+   "en": "Chaos Rising",
+   "it": "Caos Nascente"
+  },
+  "CRZ": {
+   "en": "Crown Zenith",
+   "it": "Zenit Regale"
+  },
+  "DAA": {
+   "en": "Darkness Ablaze",
+   "it": "Fiamme Oscure"
+  },
+  "DRI": {
+   "en": "Destined Rivals",
+   "it": "Rivali Predestinati"
+  },
+  "DRM": {
+   "en": "Dragon Majesty",
+   "it": "Trionfo dei Draghi"
+  },
+  "EVO": {
+   "en": "Evolutions",
+   "it": "Evoluzioni"
+  },
+  "EVS": {
+   "en": "Evolving Skies",
+   "it": "Evoluzioni Eteree"
+  },
+  "FCO": {
+   "en": "Fates Collide",
+   "it": "Destini Incrociati"
+  },
+  "FFI": {
+   "en": "Furious Fists",
+   "it": "Colpi Furiosi"
+  },
+  "FLF": {
+   "en": "Flashfire",
+   "it": "Fuoco Infernale"
+  },
+  "FLI": {
+   "en": "Forbidden Light",
+   "it": "Apocalisse di Luce"
+  },
+  "FST": {
+   "en": "Fusion Strike",
+   "it": "Colpo Fusione"
+  },
+  "GEN": {
+   "en": "Generations",
+   "it": "Generazioni"
+  },
+  "GRI": {
+   "en": "Guardians Rising",
+   "it": "Guardiani Nascenti"
+  },
+  "HIF": {
+   "en": "Hidden Fates",
+   "it": "Destino Sfuggente"
+  },
+  "JTG": {
+   "en": "Journey Together",
+   "it": "Avventure Insieme"
+  },
+  "LOR": {
+   "en": "Lost Origin",
+   "it": "Origine Perduta"
+  },
+  "LOT": {
+   "en": "Lost Thunder",
+   "it": "Tuoni Perduti"
+  },
+  "MEG": {
+   "en": "Mega Evolution",
+   "it": "Megaevoluzione"
+  },
+  "MEW": {
+   "en": "Pokémon 151",
+   "it": "Pokémon 151"
+  },
+  "NVI": {
+   "en": "Noble Victories",
+   "it": "Vittorie Regali"
+  },
+  "OBF": {
+   "en": "Obsidian Flames",
+   "it": "Ossidiana Infuocata"
+  },
+  "PAF": {
+   "en": "Paldean Fates",
+   "it": "Destino di Paldea"
+  },
+  "PAL": {
+   "en": "Paldea Evolved",
+   "it": "Evoluzioni a Paldea"
+  },
+  "PAR": {
+   "en": "Paradox Rift",
+   "it": "Paradosso Temporale"
+  },
+  "PBL": {
+   "en": "Pitch Black",
+   "it": "Buio Pesto"
+  },
+  "PFL": {
+   "en": "Phantasmal Flames",
+   "it": "Fiamme Spettrali"
+  },
+  "PGO": {
+   "en": "Pokémon GO",
+   "it": "Pokémon GO"
+  },
+  "PHF": {
+   "en": "Phantom Forces",
+   "it": "Forze Spettrali"
+  },
+  "PLB": {
+   "en": "Plasma Blast",
+   "it": "Esplosione Plasma"
+  },
+  "PLF": {
+   "en": "Plasma Freeze",
+   "it": "Glaciazione Plasma"
+  },
+  "PLS": {
+   "en": "Plasma Storm",
+   "it": "Uragano Plasma"
+  },
+  "POR": {
+   "en": "Perfect Order",
+   "it": "Equilibrio Perfetto"
+  },
+  "PRC": {
+   "en": "Primal Clash",
+   "it": "Scontro Primordiale"
+  },
+  "PRE": {
+   "en": "Prismatic Evolutions",
+   "it": "Prismatic Evolutions"
+  },
+  "RCL": {
+   "en": "Rebel Clash",
+   "it": "Fragore Ribelle"
+  },
+  "ROS": {
+   "en": "Roaring Skies",
+   "it": "Furie Volanti"
+  },
+  "SCR": {
+   "en": "Stellar Crown",
+   "it": "Corona Astrale"
+  },
+  "SFA": {
+   "en": "Shrouded Fable",
+   "it": "Segreto Fiabesco"
+  },
+  "SHF": {
+   "en": "Shining Fates",
+   "it": "Destino Splendente"
+  },
+  "SIT": {
+   "en": "Silver Tempest",
+   "it": "Tempesta Argentata"
+  },
+  "SLG": {
+   "en": "Shining Legends",
+   "it": "Leggende Iridescenti"
+  },
+  "SP": {
+   "en": "Sword & Shield Promos",
+   "it": "Sword & Shield Promos"
+  },
+  "SSH": {
+   "en": "Sword & Shield",
+   "it": "Spada e Scudo"
+  },
+  "SSP": {
+   "en": "Surging Sparks",
+   "it": "Scintille Folgoranti"
+  },
+  "STS": {
+   "en": "Steam Siege",
+   "it": "Vapori Accesi"
+  },
+  "SUM": {
+   "en": "Sun & Moon",
+   "it": "Sole e Luna"
+  },
+  "SVI": {
+   "en": "Scarlet & Violet",
+   "it": "Scarlatto e Violetto"
+  },
+  "SVP": {
+   "en": "Scarlet & Violet Promos",
+   "it": "Scarlet & Violet Promos"
+  },
+  "TEF": {
+   "en": "Temporal Forces",
+   "it": "Cronoforze"
+  },
+  "TEU": {
+   "en": "Team Up",
+   "it": "Gioco di Squadra"
+  },
+  "TWM": {
+   "en": "Twilight Masquerade",
+   "it": "Crepuscolo Mascherato"
+  },
+  "UNB": {
+   "en": "Unbroken Bonds",
+   "it": "Legami Inossidabili"
+  },
+  "UNM": {
+   "en": "Unified Minds",
+   "it": "Sintonia Mentale"
+  },
+  "UPR": {
+   "en": "Ultra Prism",
+   "it": "Ultraprisma"
+  },
+  "VIV": {
+   "en": "Vivid Voltage",
+   "it": "Voltaggio Sfolgorante"
+  },
+  "WHT": {
+   "en": "White Flare",
+   "it": "Fuoco Bianco"
+  },
+  "XYP": {
+   "en": "XY Promos",
+   "it": "XY Promos"
+  }
+ }
+}
