@@ -645,6 +645,44 @@
    "en": "Rose",
    "it": "Rose"
   },
+  "DLR-125": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Aarune-V2-DLR125",
+   "en": "Aarune"
+  },
+  "DLR-126": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Adventure-Lantern-V2-DLR126",
+   "en": "Adventure Lantern"
+  },
+  "DLR-127": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Custom-Vest-V2-DLR127",
+   "en": "Custom Vest"
+  },
+  "DLR-128": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Emcees-Hype-V2-DLR128",
+   "en": "Emcee's Hype",
+   "it": "Entusiasmo di Emcee"
+  },
+  "DLR-129": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Pokemon-Catcher-DLR129",
+   "en": "Pokémon Catcher",
+   "it": "Acchiappa-Pokémon"
+  },
+  "DLR-130": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Tate-Lizas-Training-V2-DLR130",
+   "en": "Tate & Liza's Training"
+  },
+  "DLR-131": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Zinnias-Trust-V2-DLR131",
+   "en": "Zinnia's Trust"
+  },
+  "DLR-139": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Aarune-V3-DLR139",
+   "en": "Aarune"
+  },
+  "DLR-140": {
+   "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Delta-Reign/Zinnias-Trust-V3-DLR140",
+   "en": "Zinnia's Trust"
+  },
   "DRI-220": {
    "cm": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Destined-Rivals/Emcees-Hype-V2-DRI220",
    "en": "Emcee's Hype",
@@ -2487,6 +2525,10 @@
   "DAA": {
    "en": "Darkness Ablaze",
    "it": "Fiamme Oscure"
+  },
+  "DLR": {
+   "en": "Delta Reign",
+   "it": "Delta Reign"
   },
   "DRI": {
    "en": "Destined Rivals",
